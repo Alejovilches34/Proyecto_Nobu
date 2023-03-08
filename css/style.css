@@ -97,6 +97,140 @@ p {
         flex-direction: column;
     }
 
+    .footerrow{
+        flex-direction:column;
+        flex-wrap: wrap;
+    }
+
+    .h2{
+        flex-direction: column;
+    }
+
+    .h3{
+        flex-direction: column;
+    }
+
+
+   .hhh{
+    flex-wrap: wrap;
+    }
+
+    .promo{
+        padding: 328px;
+    }
+
+   .text-franq{
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+   }
+
+   .footerdiv{
+    align-items: center;
+   }
+
+   .seccion2{
+    margin-right: 50px;
+   }
+
+   .inputmsj{
+    margin-left: -215px;
+   }
+
+   .submit1{
+    margin-left: 50px;
+   }
+
+   .seccion3{
+    flex-wrap: wrap;
+    margin-bottom: -179px;
+   }
+
+   .nombre{
+    padding-left: 94px;
+   }
+
+   .video{
+    margin: 2px;
+    padding-left: 92px;
+   }
+
+   .submit3{
+    flex-wrap: wrap;
+   }
+
+   .seccion5{
+    flex-wrap: wrap;
+    margin-right: 108px;
+   }
+
+   .imgsushi1{
+    margin: 23px;
+    margin-right: -138px;
+   }
+
+   .seccion4{
+    flex-wrap: wrap;
+    margin-left: 24px;
+    margin-top: 77px;
+   }
+
+   .seccion4-a{
+    margin-top: -78px;
+   }
+
+   a{
+    padding-left: 79px;
+   }
+
+   .texto-nobu{
+    padding: 96px;
+   }
+
+   .enunciadosreserva{
+    margin-right: 80px;
+   }
+
+   .seccion5_5{
+    padding-left: 57px;
+   }
+
+   .items{
+    margin: 47px;
+   }
+
+   .ig{
+    padding-right: 500px;
+   }
+
+   .copy{
+    margin-left: -341px;
+   }
+
+   .h1foot{
+    text-align: center;
+   }
+}
+
+@media (max-width: 600px){
+    header main footer{
+        display: inline-block;
+        width: 100%;
+     }
+
+    .encabezado{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .bannermainindex{
+        width: 100%;
+    }
+
+    .footerrow{
+        flex-direction:column;
+        flex-wrap: wrap;
+    }
+
     .h2{
         flex-direction: column;
     }
@@ -155,7 +289,7 @@ p {
 
    .seccion5{
     flex-wrap: wrap;
-    margin-right: 108px;
+    margin-right: 102px;
    }
 
    .imgsushi1{
@@ -165,7 +299,7 @@ p {
 
    .seccion4{
     flex-wrap: wrap;
-    margin-left: 67px;
+    margin-left: 23px;
     margin-top: 90px;
    }
 
@@ -186,16 +320,24 @@ p {
    }
 
    .seccion5_5{
-    padding-left: 108px;
+    padding-left: 57px;
    }
-}
+   
+   .items{
+    padding-left: 41px;
+   }
 
-@media (max-width: 700px){
-    header main footer{
-        display: inline-block;
-        max-width: 100%;
+   .ig{
+    padding-right: 500px;
+   }
 
-    }
+   .copy{
+    margin-left: -345px;
+   }
+
+   .h1foot{
+    text-align: center;
+   }
 }
 
 /*main*/   
@@ -323,6 +465,7 @@ img{
 .seccion5{
      background-color: black;
      display: flex;
+     margin-right: 3px;
      flex-direction: row-reverse;
  }
 
@@ -480,7 +623,8 @@ img{
     border: 1px solid #ced4da;
     appearance: none;
     border-radius: 0.375rem;
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, 
+    box-shadow 0.15s ease-in-out;
 }
 .titulo{
     text-align: center;
@@ -1013,7 +1157,8 @@ hr {
     font-size: 1rem;
     margin-top: -10px;
     margin-bottom: 9px;
-    margin-left: 480px;
+    width: 100%;
+    padding-left: 550px;
 }
 
 .h1foot{
