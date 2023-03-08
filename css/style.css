@@ -97,8 +97,9 @@ p {
         flex-direction: column;
     }
 
-    .bannermainindex{
-        width: auto;
+    .bannermain{
+        min-height: 60vh;
+       padding-bottom: 3rem;
     }
 
 
@@ -227,8 +228,9 @@ p {
         flex-direction: column;
     }
 
-    .bannermainindex{
-        width: auto;
+    .bannermain{
+        min-height: 60vh;
+       padding-bottom: 3rem;
     }
 
     .footerrow{
@@ -356,7 +358,13 @@ img{
     width: 100%;
     background-color: rgb(7, 7, 10);
 }
+
+.section-main{
+    display: block;
+}
+
 .promo{
+    padding-left: 15rem;
     font-weight: 700;
     font-family: 'Raleway';
     color: #e45eaf;
@@ -364,17 +372,22 @@ img{
     text-shadow: 1px 2px rgb(8, 8, 8);
  }
 
- .bannermainindex{
-    background-image: url(../images/banner.webp);
-    width: 100%;
-    height: 486px;
+ .bannermain{
+    background-image: url(../images/Banner\ 2.jpg);
+    max-width: 100%;
+    min-height: 70vh;
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
+    background-position: center;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    position: relative;
+    flex-direction: column;
+    justify-content: center;
+}   
+
+
+.justify-content-center{
+    -webkit-box-pack: center !important;
+    justify-content: center !important;
 }
 
 .seccion2{
