@@ -98,8 +98,13 @@ p {
     }
 
     .bannermain{
-        min-height: 60vh;
+       min-height: 60vh;
        padding-bottom: 3rem;
+    }
+
+    .section-main{
+        display: flex;
+        max-width: 100%;
     }
 
 
@@ -110,10 +115,12 @@ p {
 
     .h2{
         flex-direction: column;
+        margin-left: -68px;
     }
 
     .h3{
         flex-direction: column;
+        margin-left: -68px;
     }
 
 
@@ -170,9 +177,10 @@ p {
    }
 
    .imgsushi1{
-    margin: 23px;
-    margin-right: -138px;
-   }
+        max-width: 100%;
+        width: 690px;
+        padding-right: 73px;
+     }
 
    .seccion4{
     flex-wrap: wrap;
@@ -215,6 +223,14 @@ p {
    .h1foot{
     text-align: center;
    }
+
+   .horarios{
+    text-align: center;
+   }
+
+   .uvps{
+    padding-top: 60px;
+   }
 }
 
 @media (max-width: 600px){
@@ -240,10 +256,12 @@ p {
 
     .h2{
         flex-direction: column;
+        margin-left: -68px;
     }
 
     .h3{
         flex-direction: column;
+        margin-left: -68px;
     }
 
 
@@ -282,12 +300,12 @@ p {
    }
 
    .nombre{
-    padding-left: 189px;
+    padding-left: 78px;
    }
 
    .video{
-    margin: 23px;
-    padding-left: 201px;
+    margin: 49px;
+    padding-left: 82px;
    }
 
    .submit3{
@@ -300,18 +318,17 @@ p {
    }
 
    .imgsushi1{
-    margin: 23px;
-    margin-right: -138px;
-   }
-
+    max-width: 100%;
+ }
    .seccion4{
     flex-wrap: wrap;
-    margin-left: 23px;
-    margin-top: 90px;
+    margin-left: -64px;
+    margin-top: 199px;
    }
 
    .seccion4-a{
-    margin-top: -78px;
+    margin-top: -87px;
+    margin-left: 48px;
    }
 
    a{
@@ -319,11 +336,13 @@ p {
    }
 
    .texto-nobu{
-    padding: 190px;
+    padding: 72px;
    }
 
    .enunciadosreserva{
-    margin-right: 80px;
+    padding-top: 129px;
+    padding-left: 86px;
+    
    }
 
    .seccion5_5{
@@ -347,11 +366,21 @@ p {
    }
 }
 
+@media (max-width: 400px){
+    .seccion4 {
+        flex-wrap: wrap;
+        margin-left: -64px;
+        margin-top: 199px;
+    }
+
+    .enunciadosreserva{
+        padding-top: 120px;
+        padding-left: 86px;
+    }
+}
+
 /*main*/   
 
-img{
-    max-width: 100%;
-}
 
 .mainindex{
     grid-area: main;
@@ -360,7 +389,7 @@ img{
 }
 
 .section-main{
-    display: block;
+    display: flex;
 }
 
 .promo{
@@ -374,7 +403,7 @@ img{
 
  .bannermain{
     background-image: url(../images/Banner\ 2.jpg);
-    max-width: 100%;
+    width: 100%;
     min-height: 70vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -425,6 +454,7 @@ img{
     background-color: black;
     display: flex;
     flex-direction: row;
+    margin-top: 80px;
 }
 
 .video{
@@ -448,6 +478,7 @@ img{
  
  .seccion4{
      display: flex;
+     margin-top: 68px;
      background-color: black;
  }
 
@@ -464,7 +495,8 @@ img{
      margin: 58px;
      color: aliceblue;
      margin-top: 100px;
-     margin-left: 200px;
+     margin-bottom: 92px;
+     margin-left: 119px;
  }
  
  .submit3{
@@ -516,11 +548,10 @@ img{
 
 
 .imgsushi1{
-    width: 912px;
-    height: 415px;
+    height: 354px;
     margin-right: 33px;
     margin-top: 95px;
-    margin-bottom: 38px;
+    margin-bottom: -50px;
 }
 
 .nc {
