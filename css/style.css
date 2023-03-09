@@ -366,7 +366,7 @@ p {
    }
 }
 
-@media (max-width: 400px){
+@media (max-width: 414px){
     .seccion4 {
         flex-wrap: wrap;
         margin-left: -64px;
@@ -385,7 +385,7 @@ p {
 .mainindex{
     grid-area: main;
     width: 100%;
-    background-color: rgb(7, 7, 10);
+    background-color: rgb(0, 0, 0);
 }
 
 .section-main{
@@ -651,6 +651,7 @@ p {
 
 .hhh {
     display: flex;
+    flex-wrap: wrap;
     justify-items: center;
     align-items: center;
     margin-top: 52px;
@@ -937,6 +938,11 @@ h4{
     text-decoration: underline;
 }
 
+.row{
+    width: 100%;
+    margin-left: -47px;
+}
+
 
 /* Bootstrap*/
 
@@ -1071,11 +1077,13 @@ h4{
 
 .card{
     margin: 60px 0 0 69px;
+    background-color: black;
 }
 
 .card-title{
     font-size: 2.3rem;
     font-family: 'Raleway';
+    color: aliceblue;
 }
 
 .list-franq{
@@ -1091,7 +1099,8 @@ h4{
     color: aliceblue;
     font-family: 'raleway';
     margin-left: 116px;
-    padding-bottom: 62px;
+    padding-bottom: 16px;
+    padding-right: 170px;
 }
 
 /*footer*/
