@@ -420,7 +420,6 @@ p {
 }
 
 .seccion2{
-    background-color: black;
     margin: auto;
     padding: 86px;
 }
@@ -428,11 +427,11 @@ p {
 .submit1 {
     text-align: center;
     border-radius: 11px;
-    width: 289px;
-    height: 63px;
+    width: 245px;
+    height: 41px;
     background-color: rgb(31, 172, 55);
     border-color: rgb(31 172 55);
-    margin-left: 300px;
+    margin-left: -264px;
     margin-top: 104px;
 
 }
@@ -440,14 +439,14 @@ p {
 .submit2{
     text-align: center;
     border-radius: 11px;
-    width: 289px;
-    height: 65px;
+    width: 245px;
+    height: 41px;
     display: flex;
     justify-content: center;
     background-color: rgb(91, 8, 8);
     border-color: rgb(104, 66, 66);
-    margin-left: 700px;
-    margin-top: -62px;
+    margin-left: -263px;
+    margin-top: 31px;
 }
 
 .seccion3{
@@ -485,8 +484,8 @@ p {
  .enunciadosreserva1{
     font-size: 2.6rem;
     color: aliceblue;
-    text-align: center;
-    font-family: 'Roboto';
+    margin-right: 708px;
+    font-family: 'Raleway';
 
 }
  
@@ -664,7 +663,8 @@ p {
 .nombreinput{
     display: block;
     width: 100%;
-    padding: 0.375rem 8.75rem;
+    padding: 10px;
+    padding-right: 17.75rem;
     font-size: 1.3rem;
     color: #0c0808;
     background-color: white;
@@ -943,6 +943,9 @@ h4{
     margin-left: -47px;
 }
 
+.col{
+    align-items: center;
+}
 
 /* Bootstrap*/
 
@@ -1102,6 +1105,18 @@ h4{
     padding-bottom: 16px;
     padding-right: 170px;
 }
+
+.pedidos{
+    background-image: url(../images/Background\ pedidos.jpg);
+    width: 100%;
+    min-height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}  
 
 /*footer*/
 
