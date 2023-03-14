@@ -1,0 +1,312 @@
+@media (max-width: 992px){
+    header main footer{
+        display: inline-block;
+        width: 100%;
+     }
+
+    .encabezado{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .bannermain{
+       min-height: 60vh;
+       padding-bottom: 3rem;
+    }
+
+    .section-main{
+        display: flex;
+        max-width: 100%;
+    }
+
+
+    .footerrow{
+        flex-direction:column;
+        flex-wrap: wrap;
+    }
+
+    .h2{
+        flex-direction: column;
+        margin-left: -68px;
+    }
+
+    .h3{
+        flex-direction: column;
+        margin-left: -68px;
+    }
+
+
+   .hhh{
+    flex-wrap: wrap;
+    }
+
+    .promo{
+        padding: 328px;
+    }
+
+   .text-franq{
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+   }
+
+   .footerdiv{
+    align-items: center;
+   }
+
+   .seccion2{
+    margin-right: 50px;
+   }
+
+   .inputmsj{
+    margin-left: -215px;
+   }
+
+   .submit1{
+    margin-left: 50px;
+   }
+
+   .seccion3{
+    flex-wrap: wrap;
+    margin-bottom: -179px;
+   }
+
+   .nombre{
+    padding-left: 94px;
+   }
+
+   .video{
+    margin: 2px;
+    padding-left: 92px;
+   }
+
+   .submit3{
+    flex-wrap: wrap;
+   }
+
+   .seccion5{
+    flex-wrap: wrap;
+    margin-right: 108px;
+   }
+
+   .imgsushi1{
+        max-width: 100%;
+        width: 690px;
+        padding-right: 73px;
+     }
+
+   .seccion4{
+    flex-wrap: wrap;
+    margin-left: 24px;
+    margin-top: 77px;
+   }
+
+   .seccion4-a{
+    margin-top: -78px;
+   }
+
+   a{
+    padding-left: 79px;
+   }
+
+   .texto-nobu{
+    padding: 96px;
+   }
+
+   .enunciadosreserva{
+    margin-right: 80px;
+   }
+
+   .seccion5_5{
+    padding-left: 57px;
+   }
+
+   .items{
+    margin: 47px;
+   }
+
+   .ig{
+    padding-right: 500px;
+   }
+
+   .copy{
+    margin-left: -341px;
+   }
+
+   .h1foot{
+    text-align: center;
+   }
+
+   .horarios{
+    text-align: center;
+   }
+
+   .uvps{
+    padding-top: 60px;
+   }
+}
+
+@media (max-width: 600px){
+    header main footer{
+        display: inline-block;
+        width: 100%;
+     }
+
+    .encabezado{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .bannermain{
+        min-height: 60vh;
+       padding-bottom: 3rem;
+    }
+
+    .footerrow{
+        flex-direction:column;
+        flex-wrap: wrap;
+    }
+
+    .h2{
+        flex-direction: column;
+        margin-left: -68px;
+    }
+
+    .h3{
+        flex-direction: column;
+        margin-left: -68px;
+    }
+
+    .nobuimg{
+        width: min-content;
+    }
+
+
+   .hhh{
+    flex-wrap: wrap;
+    }
+
+    .us_team_3{
+        margin-top: 50px;
+    }
+
+    .img3{
+        margin-left: 15px;
+    }
+
+    .promo{
+        padding: 328px;
+    }
+
+   .text-franq{
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+   }
+
+   .footerdiv{
+    align-items: center;
+   }
+
+   .seccion2{
+    margin-right: 50px;
+   }
+
+   .inputmsj{
+    margin-left: -215px;
+   }
+
+   .submit1{
+    margin-left: 50px;
+   }
+
+   .seccion3{
+    flex-wrap: wrap;
+    margin-bottom: -317px;
+   }
+
+   .nombre{
+    padding-left: 78px;
+   }
+
+   .video{
+    margin: 49px;
+    padding-left: 82px;
+   }
+
+   .submit3{
+    flex-wrap: wrap;
+   }
+
+   .seccion5{
+    flex-wrap: wrap;
+    margin-right: 102px;
+   }
+
+   .imgsushi1{
+    max-width: 100%;
+ }
+   .seccion4{
+    flex-wrap: wrap;
+    margin-left: -64px;
+    margin-top: 199px;
+   }
+
+   .seccion4-a{
+    margin-top: -87px;
+    margin-left: 48px;
+   }
+
+   a{
+    padding-left: 79px;
+   }
+
+   .texto-nobu{
+    padding: 72px;
+   }
+
+   .enunciadosreserva{
+    padding-top: 129px;
+    padding-left: 86px;
+    
+   }
+
+   .seccion5_5{
+    padding-left: 57px;
+   }
+
+   .items{
+    padding-left: 41px;
+   }
+
+   .ig{
+    padding-right: 500px;
+   }
+
+   .copy{
+    margin-left: -345px;
+   }
+
+   .h1foot{
+    text-align: center;
+   }
+
+   .section{
+    margin-left: 216px;
+   }
+
+   .Nusu{
+    margin-left: 81px;
+   }
+}
+
+@media (max-width: 414px){
+    .seccion4 {
+        flex-wrap: wrap;
+        margin-left: -64px;
+        margin-top: 199px;
+    }
+
+    .enunciadosreserva{
+        padding-top: 120px;
+        padding-left: 86px;
+    }
+}
