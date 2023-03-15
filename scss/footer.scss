@@ -20,81 +20,57 @@ a {
     margin-top: 2px;
     opacity: 80%;
     font-size: small;
-  }
 
-  .lista1{
+    .lista1{
     font-size: 17px;
     margin-right: 30px;
-}
+    }
 
-
-.items {
+    .items {
     padding-right: 30px;
     padding-top: 2px;
     font-size: 1.25rem;
     margin: 56px;
     text-decoration-line: none;
-}
 
-.items-sushigift{
-    padding-right: 24px;
-    padding-top: 14px;
-    font-size: 1.25rem;
-    margin: 56px;
-    text-decoration-line: none;
-}
-.drop {
-    font-size: 1.25rem;
-}
+       .imgsuscribe1{
+        height: 25px;
+        align-items: flex-end;
+        }
+    
+       .imgsuscribe2{
+        height: 26px;
+        padding-left: 15px;
+        }
 
+       .footernew{
+        padding-top: 20px;
+        margin-left: 64px;
 
-.listfooter{
-    display: flex;
-    justify-content: right;
-    padding-right: 92px;
-    font-size: 17px;
+        .imgsuscribe{
+        height: 24px;
+        }
+        }
+    }
 
-}
- 
-.footernew{
-    padding-top: 20px;
-    margin-left: 64px;
-}
+    .copy{
+    color:aliceblue ;
+    font-size: 1rem;
+    margin-top: -10px;
+    margin-bottom: 9px;
+    width: 100%;
+    padding-left: 550px;
 
+       .h1foot{
+        font-size: 1rem;
+        margin-left: -12px;
+        margin-top: 19px;
+        margin-bottom: 0;
+        }
+    
+    }
+    
 
-.imgsuscribe{
-    size: 1.25rem;
-    height: 24px;
-    margin-right: 114px;
-    text-align: center;
-}
-
-.ig{
-    position: relative;
-    display: flex;
-    justify-content:space-between;
-}
-.imgsuscribe1{
-    height: 25px;
-    border-radius: auto;
-    align-items: flex-end;
-}
-
-.imgsuscribe2{
-    height: 27px;
-    padding-left: 15px;
-    border-radius: auto;
-}
-
-.rrss{
-    padding-left: 85px;
-}
-.img1{
-    width: 65px;
-}
-
-.img2{
-    width: 120px;
 }
 
 hr {
@@ -104,19 +80,3 @@ hr {
     margin-top: -4px;
 }
 
-.copy{
-    color:aliceblue ;
-    font-size: 1rem;
-    margin-top: -10px;
-    margin-bottom: 9px;
-    width: 100%;
-    padding-left: 550px;
-}
-
-.h1foot{
-    font-size: 1rem;
-    margin-left: 50px;
-    margin-top: 19px;
-    margin-bottom: 0;
-    
-}
