@@ -68,7 +68,6 @@ a:hover {
 
 .promo {
   padding-left: 15rem;
-  font-weight: 700;
   font-family: "raleway";
   color: #e45eaf;
   font-size: 2rem;
@@ -191,6 +190,12 @@ a:hover {
   width: 75%;
   margin: 99px;
   margin-top: 108px;
+}
+
+.seccion_5 {
+  background-color: black;
+  display: flex;
+  margin-right: 3px;
 }
 
 .section {
@@ -426,13 +431,14 @@ a:hover {
 }
 
 .text-franq {
-  margin-left: 10px;
-  padding-right: 25px;
-  padding-bottom: 67px;
+  margin-left: 39px;
+  margin-top: 55px;
+  padding-right: 31px;
 }
 
 .franquicias1 {
   max-width: 100%;
+  margin-right: 50px;
 }
 
 .dash-line {
@@ -532,7 +538,7 @@ h4 {
 
 .img3 {
   width: 600px;
-  margin-left: -3px;
+  margin-left: 100px;
 }
 
 .us_team_3 {
@@ -543,10 +549,10 @@ h4 {
 }
 
 .textofranq3 {
-  margin-left: 49px;
+  margin-left: 56px;
   font-family: "Raleway";
   font-size: 20px;
-  padding: 8px;
+  padding-right: 67px;
 }
 
 .maps {
@@ -785,23 +791,15 @@ a {
 
 .footerrow {
   display: flex;
-  height: auto;
-  border-top: none;
-  flex-wrap: wrap;
-  margin-top: 2px;
-  opacity: 80%;
-  font-size: small;
 }
 .footerrow .lista1 {
   font-size: 17px;
   margin-right: 30px;
 }
 .footerrow .items {
-  padding-right: 30px;
-  padding-top: 2px;
+  padding-right: 75px;
   font-size: 1.25rem;
   margin: 56px;
-  text-decoration-line: none;
 }
 .footerrow .items .imgsuscribe1 {
   height: 25px;
@@ -818,7 +816,8 @@ a {
 .footerrow .items .footernew .imgsuscribe {
   height: 24px;
 }
-.footerrow .copy {
+
+.copy {
   color: aliceblue;
   font-size: 1rem;
   margin-top: -10px;
@@ -826,7 +825,7 @@ a {
   width: 100%;
   padding-left: 550px;
 }
-.footerrow .copy .h1foot {
+.copy .h1foot {
   font-size: 1rem;
   margin-left: -12px;
   margin-top: 19px;

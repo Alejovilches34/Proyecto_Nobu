@@ -13,7 +13,6 @@
 
 .promo{
     padding-left: 15rem;
-    font-weight: 700;
     font-family: $font-family;
     color: #e45eaf;
     font-size: 2rem;
@@ -143,6 +142,12 @@
     
 }
 
+.seccion_5{
+    background-color: black;
+    display: flex;
+    margin-right: 3px;
+
+}
 
 .section{
     background-color: #000000;
@@ -386,13 +391,14 @@
 }
 
 .text-franq{
-    margin-left: 10px;
-    padding-right: 25px;
-    padding-bottom: 67px;
+    margin-left: 39px;
+    margin-top: 55px;
+    padding-right: 31px;
 }
 
 .franquicias1{
     max-width: 100%;
+    margin-right: 50px;
 }
 
 .dash-line{
@@ -493,7 +499,7 @@ h4{
 
 .img3{
     width: 600px;
-    margin-left: -3px;
+    margin-left: 100px;
 }
 
 .us_team_3{
@@ -504,10 +510,10 @@ h4{
 }
 
 .textofranq3{
-    margin-left: 49px;
+    margin-left: 56px;
     font-family: 'Raleway';
     font-size: 20px;
-    padding: 8px;
+    padding-right: 67px;
 }
 
 .maps{
