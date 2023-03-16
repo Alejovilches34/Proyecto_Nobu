@@ -19,7 +19,6 @@
         max-width: 100%;
     }
 
-
     .footerrow{
         flex-direction:column;
         flex-wrap: wrap;
@@ -34,7 +33,6 @@
         flex-direction: column;
         margin-left: -68px;
     }
-
 
    .hhh{
     flex-wrap: wrap;
@@ -124,10 +122,6 @@
     margin: 47px;
    }
 
-   .ig{
-    padding-right: 500px;
-   }
-
    .copy{
     margin-left: -341px;
    }
@@ -137,12 +131,46 @@
    }
 
    .horarios{
-    text-align: center;
+    margin-left: 106px;
    }
 
    .uvps{
     padding-top: 60px;
    }
+
+   .dash-line{
+    margin-top: 257px;
+}
+
+.franquicias1{
+    margin-left: 40px;
+   }
+
+   .misionvision{
+       margin-right: 14px;
+   }
+
+   .franquicias2{
+     margin-left: 80px;
+   }
+
+   .img3{
+    margin-left: 180px;
+}
+
+.maps{
+    margin-left: 212px;
+   }
+
+   .Nusu{
+    margin-right: 31px;
+   }
+
+   .dash-line-1{
+    margin-top: 54px;
+}
+
+
 }
 
 @media (max-width: 600px){
@@ -190,7 +218,7 @@
     }
 
     .img3{
-        margin-left: 15px;
+        margin-left: 98px;
     }
 
     .promo{
@@ -290,15 +318,52 @@
    }
 
    .section{
-    margin-left: 216px;
+    margin-left: 68px;
+   } 
+
+   .maps{
+    margin-left: 155px;
    }
 
    .Nusu{
-    margin-left: 81px;
+    margin-right: 31px;
    }
+
+   .card-img-top{
+        width: 45%;
+   }
+
+   .card-body{
+        font-size: small;
+   }
+
+   .dash-line{
+        margin-top: 383px;
+   }
+
+   .franquicias1{
+    margin-left: 70px;
+   }
+
+   .misionvision{
+       margin-right: 14px;
+   }
+
+   .franquicias2{
+     margin-right: 77px;
+   }
+
+   .dash-line-1{
+    margin-top: 54px;
 }
 
-@media (max-width: 414px){
+   .horarios{
+    margin-left: 106px;
+   }
+
+}
+
+@media (max-width: 375px){
     .seccion4 {
         flex-wrap: wrap;
         margin-left: -64px;
@@ -309,4 +374,20 @@
         padding-top: 120px;
         padding-left: 86px;
     }
+
+    .card-img-top{
+        width: 45%;
+   }
+
+   .quote{
+      font-size: 0.7rem;
+   }
+
+   .nc{
+     font-size: 0.7rem;
+   }
+
+   
+
+   
 }

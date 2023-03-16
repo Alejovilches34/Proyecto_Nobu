@@ -195,13 +195,13 @@ a:hover {
 .seccion_5 {
   background-color: black;
   display: flex;
+  flex-wrap: wrap;
   margin-right: 3px;
 }
 
 .section {
   background-color: #000000;
   padding: 10px;
-  width: 100vw;
 }
 
 .en {
@@ -426,10 +426,6 @@ a:hover {
   font-family: "raleway";
 }
 
-.doble {
-  background-color: #000000;
-}
-
 .text-franq {
   margin-left: 39px;
   margin-top: 55px;
@@ -442,6 +438,11 @@ a:hover {
 }
 
 .dash-line {
+  margin: 50px 0;
+  border-top: 1px dashed aliceblue;
+}
+
+.dash-line-1 {
   margin: 50px 0;
   border-top: 1px dashed aliceblue;
 }
@@ -532,7 +533,8 @@ h4 {
 }
 
 .gastronomia {
-  padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
   color: aliceblue;
 }
 
@@ -564,8 +566,9 @@ h4 {
 }
 
 .horarios {
-  margin-left: 341px;
   font-size: 1.5rem;
+  margin-bottom: 25px;
+  margin-left: 381px;
 }
 
 .Nusu {
@@ -936,9 +939,6 @@ hr {
   .items {
     margin: 47px;
   }
-  .ig {
-    padding-right: 500px;
-  }
   .copy {
     margin-left: -341px;
   }
@@ -946,10 +946,34 @@ hr {
     text-align: center;
   }
   .horarios {
-    text-align: center;
+    margin-left: 106px;
   }
   .uvps {
     padding-top: 60px;
+  }
+  .dash-line {
+    margin-top: 257px;
+  }
+  .franquicias1 {
+    margin-left: 40px;
+  }
+  .misionvision {
+    margin-right: 14px;
+  }
+  .franquicias2 {
+    margin-left: 80px;
+  }
+  .img3 {
+    margin-left: 180px;
+  }
+  .maps {
+    margin-left: 212px;
+  }
+  .Nusu {
+    margin-right: 31px;
+  }
+  .dash-line-1 {
+    margin-top: 54px;
   }
 }
 @media (max-width: 600px) {
@@ -987,7 +1011,7 @@ hr {
     margin-top: 50px;
   }
   .img3 {
-    margin-left: 15px;
+    margin-left: 98px;
   }
   .promo {
     padding: 328px;
@@ -1064,13 +1088,40 @@ hr {
     text-align: center;
   }
   .section {
-    margin-left: 216px;
+    margin-left: 68px;
+  }
+  .maps {
+    margin-left: 155px;
   }
   .Nusu {
-    margin-left: 81px;
+    margin-right: 31px;
+  }
+  .card-img-top {
+    width: 45%;
+  }
+  .card-body {
+    font-size: small;
+  }
+  .dash-line {
+    margin-top: 383px;
+  }
+  .franquicias1 {
+    margin-left: 70px;
+  }
+  .misionvision {
+    margin-right: 14px;
+  }
+  .franquicias2 {
+    margin-right: 77px;
+  }
+  .dash-line-1 {
+    margin-top: 54px;
+  }
+  .horarios {
+    margin-left: 106px;
   }
 }
-@media (max-width: 414px) {
+@media (max-width: 375px) {
   .seccion4 {
     flex-wrap: wrap;
     margin-left: -64px;
@@ -1079,6 +1130,15 @@ hr {
   .enunciadosreserva {
     padding-top: 120px;
     padding-left: 86px;
+  }
+  .card-img-top {
+    width: 45%;
+  }
+  .quote {
+    font-size: 0.7rem;
+  }
+  .nc {
+    font-size: 0.7rem;
   }
 }
 * {
