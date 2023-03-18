@@ -56,25 +56,17 @@ a:hover {
 }
 
 /*main*/
+/* index */
 .mainindex {
   grid-area: main;
   width: 100%;
   background-color: black;
+  /*Menu Delivery*/
 }
-
-.section-main {
+.mainindex .section-main {
   display: flex;
 }
-
-.promo {
-  padding-left: 15rem;
-  font-family: "raleway";
-  color: #e45eaf;
-  font-size: 2rem;
-  text-shadow: 1px 2px rgb(8, 8, 8);
-}
-
-.bannermain {
+.mainindex .section-main .bannermain {
   background-image: url(../images/Banner\ 2.jpg);
   width: 100%;
   min-height: 70vh;
@@ -84,6 +76,112 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.mainindex .section-main .bannermain .promo {
+  padding-left: 15rem;
+  font-family: "raleway";
+  color: #e45eaf;
+  font-size: 2rem;
+  text-shadow: 1px 2px rgb(8, 8, 8);
+}
+.mainindex .seccion3 {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+}
+.mainindex .seccion3 .video {
+  margin-left: 26px;
+  padding-top: 50px;
+}
+.mainindex .seccion3 .nombre {
+  text-decoration: underline;
+  color: aliceblue;
+  text-decoration-color: rgb(223, 223, 216);
+  margin: 28px;
+  padding-top: 20px;
+}
+.mainindex .seccion3 .texto-nobu {
+  margin: 28px;
+  padding-top: 9px;
+}
+.mainindex .seccion4 {
+  display: flex;
+  margin-top: 68px;
+  background-color: black;
+}
+.mainindex .seccion4 .enunciadosreserva {
+  font-size: 2.6rem;
+  margin: 58px;
+  color: aliceblue;
+  margin-top: 100px;
+  margin-bottom: 92px;
+  margin-left: 119px;
+}
+.mainindex .seccion4 .submit3 {
+  text-align: center;
+  border-radius: 11px;
+  width: 289px;
+  height: 75px;
+  background-color: rgb(19, 111, 127);
+  border-color: rgb(34, 158, 189);
+  margin-left: 190px;
+  margin-top: 95px;
+  font-size: 25px;
+}
+.mainindex .seccion5 {
+  background-color: black;
+  display: flex;
+  margin-right: 3px;
+  flex-direction: row-reverse;
+}
+.mainindex .seccion5 .imgsushi1 {
+  height: 354px;
+  margin-right: 33px;
+  margin-top: 95px;
+  margin-bottom: -50px;
+}
+.mainindex .seccion5 .seccion5_5 {
+  width: 75%;
+  margin: 99px;
+  margin-top: 108px;
+}
+.mainindex .seccion5 .seccion5_5 .en {
+  text-decoration: underline;
+  color: aliceblue;
+  text-decoration-color: rgb(223, 223, 216);
+  padding-top: 20px;
+  margin-left: -75px;
+}
+.mainindex .seccion5 .seccion5_5 .texto-nobu-1 {
+  margin: 28px;
+  padding-top: 9px;
+  margin-left: -75px;
+}
+.mainindex .enunciados-menu {
+  margin-left: 79px;
+  margin-top: 50px;
+  font-size: 2.3rem;
+  text-decoration: underline;
+}
+.mainindex .row {
+  width: 100%;
+  margin-left: -47px;
+}
+.mainindex .row .col {
+  align-items: center;
+}
+.mainindex .row .col .card {
+  margin: 60px 0 0 69px;
+  background-color: black;
+}
+.mainindex .row .col .card .card-text {
+  background-color: #000000;
+}
+.mainindex .row .col .card .card-title {
+  font-size: 2.3rem;
+  font-family: "Raleway";
+  color: aliceblue;
 }
 
 .justify-content-center {
@@ -120,76 +218,11 @@ a:hover {
   margin-top: 31px;
 }
 
-.seccion3 {
-  background-color: black;
-  display: flex;
-  flex-direction: row;
-  margin-top: 80px;
-}
-
-.video {
-  margin-left: 26px;
-  padding-top: 50px;
-}
-
-.nombre {
-  text-decoration: underline;
-  color: aliceblue;
-  text-decoration-color: rgb(223, 223, 216);
-  margin: 28px;
-  padding-top: 20px;
-}
-
-.texto-nobu {
-  margin: 28px;
-  padding-top: 9px;
-}
-
-.seccion4 {
-  display: flex;
-  margin-top: 68px;
-  background-color: black;
-}
-
 .enunciadosreserva1 {
   font-size: 2.6rem;
   color: aliceblue;
   margin-right: 708px;
   font-family: "Raleway";
-}
-
-.enunciadosreserva {
-  font-size: 2.6rem;
-  margin: 58px;
-  color: aliceblue;
-  margin-top: 100px;
-  margin-bottom: 92px;
-  margin-left: 119px;
-}
-
-.submit3 {
-  text-align: center;
-  border-radius: 11px;
-  width: 289px;
-  height: 75px;
-  background-color: rgb(19, 111, 127);
-  border-color: rgb(34, 158, 189);
-  margin-left: 190px;
-  margin-top: 95px;
-  font-size: 25px;
-}
-
-.seccion5 {
-  background-color: black;
-  display: flex;
-  margin-right: 3px;
-  flex-direction: row-reverse;
-}
-
-.seccion5_5 {
-  width: 75%;
-  margin: 99px;
-  margin-top: 108px;
 }
 
 .seccion_5 {
@@ -204,38 +237,12 @@ a:hover {
   padding: 10px;
 }
 
-.en {
-  text-decoration: underline;
-  color: aliceblue;
-  text-decoration-color: rgb(223, 223, 216);
-  padding-top: 20px;
-  margin-left: -75px;
-}
-
-.texto-nobu-1 {
-  margin: 28px;
-  padding-top: 9px;
-  margin-left: -75px;
-}
-
-.imgsushi1 {
-  height: 354px;
-  margin-right: 33px;
-  margin-top: 95px;
-  margin-bottom: -50px;
-}
-
 .nc {
   text-align: center;
   color: aliceblue;
   font-size: 3rem;
   font-family: "Raleway";
   margin-top: 51px;
-}
-
-.maincontact {
-  display: flex;
-  background-color: #000000;
 }
 
 .titlecontact {
@@ -599,22 +606,6 @@ h4 {
   text-align: center;
 }
 
-.enunciados-menu {
-  margin-left: 79px;
-  margin-top: 50px;
-  font-size: 2.3rem;
-  text-decoration: underline;
-}
-
-.row {
-  width: 100%;
-  margin-left: -47px;
-}
-
-.col {
-  align-items: center;
-}
-
 /* Bootstrap*/
 .imgboot {
   max-width: 100%;
@@ -733,21 +724,6 @@ h4 {
   font-family: "Raleway";
   font-weight: 500;
   align-items: center;
-}
-
-.card-text {
-  background-color: #000000;
-}
-
-.card {
-  margin: 60px 0 0 69px;
-  background-color: black;
-}
-
-.card-title {
-  font-size: 2.3rem;
-  font-family: "Raleway";
-  color: aliceblue;
 }
 
 .list-franq {
