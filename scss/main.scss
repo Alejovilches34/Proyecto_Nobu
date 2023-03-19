@@ -1,5 +1,11 @@
 /*main*/   
 
+@mixin flex ($direction) {
+    display: flex;
+    justify-content: center;
+    flex-direction: $direction;
+}
+
 /* index */
 .mainindex{
     grid-area: main;
@@ -10,15 +16,13 @@
         display: flex;
 
         .bannermain{
+            @include flex (column);
             background-image: url(../images/Banner\ 2.jpg);
             width: 100%;
             min-height: 70vh;
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
 
             .promo{
             padding-left: 15rem;
@@ -31,9 +35,8 @@
     }
 
     .seccion3{
+        @include flex (row);
         background-color: black;
-        display: flex;
-        flex-direction: row;
         margin-top: 80px;
 
         .video{
@@ -57,17 +60,15 @@
     }
 
     .seccion4{
-        display: flex;
+        @include flex(row);
         margin-top: 68px;
         background-color: black;
 
         .enunciadosreserva{
         font-size: 2.6rem;
-        margin: 58px;
         color: aliceblue;
-        margin-top: 100px;
+        margin-top: 96px;
         margin-bottom: 92px;
-        margin-left: 119px;
         }
 
         .submit3{
@@ -86,11 +87,10 @@
    
 
     .seccion5{
+        @include flex(row-reverse);
         background-color: black;
-        display: flex;
         margin-right: 3px;
-        flex-direction: row-reverse;
-
+        
         .imgsushi1{
         height: 354px;
         margin-right: 33px;
@@ -108,12 +108,12 @@
         color: aliceblue;
         text-decoration-color: rgb(223, 223, 216);
         padding-top: 20px;
+        padding-bottom: 18px;
         margin-left: -75px;
         }
         
         .texto-nobu-1{
-        margin: 28px;
-        padding-top: 9px;
+        @extend .texto-nobu;
         margin-left: -75px;
         }
         }
@@ -156,16 +156,14 @@
 /* pedidos */
 
 .pedidos{
+    @include flex (column);
     background-image: url(../images/Background\ pedidos.jpg);
     width: 100%;
     min-height: 70vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
+ 
     .seccion2{
         margin: auto;
         padding: 86px;
@@ -189,20 +187,17 @@
         }
         
         .submit2{
+            @include flex(row);
             text-align: center;
             border-radius: 11px;
             width: 245px;
             height: 41px;
-            display: flex;
-            justify-content: center;
             background-color: rgb(91, 8, 8);
             border-color: rgb(104, 66, 66);
             margin-left: -263px;
             margin-top: 31px;
         }
-
     }
-    
 }  
 
 /* franquicias */
@@ -246,10 +241,9 @@
 }
 
 .misionvision{
-    display: flex;
-    justify-content: center;
+    @include flex(row);
     text-align: center;
-    padding: 0 0 30px;
+    padding: 0 0 56px;
 
     #vision{
         max-width: 35%;
@@ -265,8 +259,8 @@
 }
 
 .franquicias2{
-    width: 80%;
-    margin-left: 166px;
+    width: 90%;
+    margin-left: 73px;
 }
 
 .h5h5{
@@ -315,7 +309,7 @@
 }    
 
 .gastronomia{
-    display: flex;
+    @include flex(row);
     color: aliceblue;
 
     .img3{
@@ -390,9 +384,8 @@
 }
 
 .h2-boot{
-    display: flex;
+    @include flex(row);
     align-items: center;
-    justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 19px;
 
@@ -402,9 +395,8 @@
     }
 
     .h3-boot-img{
-        display: flex;
+        @include flex(row);
         align-content: center;
-        justify-content: center;
         flex-wrap: wrap;
         height: 140px;
 }
@@ -469,9 +461,7 @@
         
 }
 
-
-
-
+/* Franquicias */
 
 .justify-content-center{
     -webkit-box-pack: center !important;

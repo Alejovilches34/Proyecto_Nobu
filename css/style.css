@@ -67,15 +67,15 @@ a:hover {
   display: flex;
 }
 .mainindex .section-main .bannermain {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   background-image: url(../images/Banner\ 2.jpg);
   width: 100%;
   min-height: 70vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 .mainindex .section-main .bannermain .promo {
   padding-left: 15rem;
@@ -85,9 +85,10 @@ a:hover {
   text-shadow: 1px 2px rgb(8, 8, 8);
 }
 .mainindex .seccion3 {
-  background-color: black;
   display: flex;
+  justify-content: center;
   flex-direction: row;
+  background-color: black;
   margin-top: 80px;
 }
 .mainindex .seccion3 .video {
@@ -101,22 +102,22 @@ a:hover {
   margin: 28px;
   padding-top: 20px;
 }
-.mainindex .seccion3 .texto-nobu {
+.mainindex .seccion3 .texto-nobu, .mainindex .seccion3 .seccion5 .seccion5_5 .texto-nobu-1, .mainindex .seccion5 .seccion5_5 .seccion3 .texto-nobu-1 {
   margin: 28px;
   padding-top: 9px;
 }
 .mainindex .seccion4 {
   display: flex;
+  justify-content: center;
+  flex-direction: row;
   margin-top: 68px;
   background-color: black;
 }
 .mainindex .seccion4 .enunciadosreserva {
   font-size: 2.6rem;
-  margin: 58px;
   color: aliceblue;
-  margin-top: 100px;
+  margin-top: 96px;
   margin-bottom: 92px;
-  margin-left: 119px;
 }
 .mainindex .seccion4 .submit3 {
   text-align: center;
@@ -130,10 +131,11 @@ a:hover {
   font-size: 25px;
 }
 .mainindex .seccion5 {
-  background-color: black;
   display: flex;
-  margin-right: 3px;
+  justify-content: center;
   flex-direction: row-reverse;
+  background-color: black;
+  margin-right: 3px;
 }
 .mainindex .seccion5 .imgsushi1 {
   height: 354px;
@@ -151,11 +153,10 @@ a:hover {
   color: aliceblue;
   text-decoration-color: rgb(223, 223, 216);
   padding-top: 20px;
+  padding-bottom: 18px;
   margin-left: -75px;
 }
 .mainindex .seccion5 .seccion5_5 .texto-nobu-1 {
-  margin: 28px;
-  padding-top: 9px;
   margin-left: -75px;
 }
 .mainindex .enunciados-menu {
@@ -186,15 +187,15 @@ a:hover {
 
 /* pedidos */
 .pedidos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   background-image: url(../images/Background\ pedidos.jpg);
   width: 100%;
   min-height: 70vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 .pedidos .seccion2 {
   margin: auto;
@@ -217,12 +218,13 @@ a:hover {
   margin-top: 104px;
 }
 .pedidos .seccion2 .submit2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
   text-align: center;
   border-radius: 11px;
   width: 245px;
   height: 41px;
-  display: flex;
-  justify-content: center;
   background-color: rgb(91, 8, 8);
   border-color: rgb(104, 66, 66);
   margin-left: -263px;
@@ -268,8 +270,9 @@ a:hover {
 .misionvision {
   display: flex;
   justify-content: center;
+  flex-direction: row;
   text-align: center;
-  padding: 0 0 30px;
+  padding: 0 0 56px;
 }
 .misionvision #vision {
   max-width: 35%;
@@ -283,8 +286,8 @@ a:hover {
 }
 
 .franquicias2 {
-  width: 80%;
-  margin-left: 166px;
+  width: 90%;
+  margin-left: 73px;
 }
 
 .h5h5 {
@@ -332,6 +335,8 @@ a:hover {
 
 .gastronomia {
   display: flex;
+  justify-content: center;
+  flex-direction: row;
   color: aliceblue;
 }
 .gastronomia .img3 {
@@ -395,8 +400,9 @@ a:hover {
 
 .h2-boot {
   display: flex;
+  justify-content: center;
+  flex-direction: row;
   align-items: center;
-  justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 19px;
 }
@@ -406,8 +412,9 @@ a:hover {
 }
 .h2-boot .h3-boot-img {
   display: flex;
-  align-content: center;
   justify-content: center;
+  flex-direction: row;
+  align-content: center;
   flex-wrap: wrap;
   height: 140px;
 }
@@ -463,6 +470,7 @@ a:hover {
   align-items: center;
 }
 
+/* Franquicias */
 .justify-content-center {
   -webkit-box-pack: center !important;
   justify-content: center !important;
@@ -833,7 +841,7 @@ hr {
   a {
     padding-left: 79px;
   }
-  .texto-nobu {
+  .texto-nobu, .mainindex .seccion5 .seccion5_5 .texto-nobu-1 {
     padding: 96px;
   }
   .enunciadosreserva {
@@ -976,7 +984,7 @@ hr {
   a {
     padding-left: 79px;
   }
-  .texto-nobu {
+  .texto-nobu, .mainindex .seccion5 .seccion5_5 .texto-nobu-1 {
     padding: 72px;
   }
   .enunciadosreserva {
@@ -1057,6 +1065,7 @@ hr {
     font-size: 0.7rem;
   }
 }
+/* Variables Universales */
 * {
   padding: 0%;
   margin: 0%;
