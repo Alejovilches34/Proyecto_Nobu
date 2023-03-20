@@ -1,10 +1,19 @@
 @media (max-width: 992px){
-    header main footer{
+        header main footer{
         display: inline-block;
         width: 100%;
      }
 
+     .gridcontainer{
+        width: 100vw;
+     }
+
     .encabezado{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .h2-boot{
         flex-wrap: wrap;
         flex-direction: column;
     }
@@ -17,6 +26,12 @@
     .section-main{
         display: flex;
         max-width: 100%;
+    }
+
+    iframe{
+        margin-left: 50px;
+        width: 100%;
+        height: 100%;
     }
 
     .footerrow{
@@ -110,6 +125,12 @@
     padding: 96px;
    }
 
+   .cuadro_2{
+    margin-top: -47px;
+    margin-bottom: -332px;
+    flex-wrap: wrap;
+   }
+
    .enunciadosreserva{
     margin-right: 80px;
    }
@@ -176,16 +197,36 @@
     margin-top: 54px;
 }
 
-
+.card-body{
+    height: 170px;
 }
 
-@media (max-width: 600px){
+.card-title{
+    width: 71vw;
+}
+
+.card-text{
+    width: 71vw;
+}
+
+.dash-line{
+    margin-top: 166px;
+}
+}
+
+@media (min-width: 600px) and (max-width: 780px){
     header main footer{
         display: inline-block;
         width: 100%;
      }
-
+     
     .encabezado{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .h2-boot{
         flex-wrap: wrap;
         flex-direction: column;
     }
@@ -213,7 +254,6 @@
     .nobuimg{
         width: min-content;
     }
-
 
    .hhh{
     flex-wrap: wrap;
@@ -300,8 +340,225 @@
    .enunciadosreserva{
     padding-top: 129px;
     padding-left: 86px;
-    
    }
+
+   .seccion5_5{
+    padding-left: 57px;
+   }
+
+   .items{
+    padding-left: -4px;
+   }
+
+   .ig{
+    padding-right: 500px;
+   }
+
+   .copy{
+    margin-left: -345px;
+   }
+
+   .h1foot{
+    text-align: center;
+   }
+
+   .section{
+    margin-left: 68px;
+   } 
+
+   .maps{
+    margin-left: 155px;
+   }
+
+   .Nusu{
+    margin-right: 31px;
+   }
+
+   .card-img-top{
+        width: 45%;
+   }
+
+   .card-body{
+        font-size: small;
+   }
+
+   .dash-line{
+        margin-top: 383px;
+   }
+
+   .franquicias1{
+    margin-left: 70px;
+   }
+
+   .misionvision{
+       margin-right: 14px;
+   }
+
+   .franquicias2{
+     margin-right: 77px;
+   }
+
+   .gastronomia {
+    display: flex;
+    flex-wrap: wrap;
+    color: aliceblue;
+}
+
+   .dash-line-1{
+    margin-top: 54px;
+}
+
+   .horarios{
+    margin-left: 106px;
+   }
+
+   .btn{
+     margin-left: 325px;
+   }
+
+}
+
+@media (min-width: 340px) and (max-width: 600px){
+
+    .bannermain{
+        width: 100vw;
+
+        .promo{
+            margin-left: -207px;
+        }
+    }
+
+    .h2-boot{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .h3-boot-img{
+        flex-direction: column;
+        margin-left: 285px;
+    }
+    header main footer{
+        display: inline-block;
+        width: 100%;
+     }
+     
+    .footerrow{
+        flex-direction:column;
+        flex-wrap: wrap;
+    }
+
+    .h2{
+        flex-direction: column;
+        margin-left: -68px;
+    }
+
+    .h3{
+        flex-direction: column;
+        margin-left: -68px;
+    }
+
+    .nobuimg{
+        width: min-content;
+    }
+
+   .hhh{
+    flex-wrap: wrap;
+    }
+
+    .us_team_3{
+        margin-top: 50px;
+    }
+
+    .img3{
+        margin-left: 98px;
+    }
+
+    .promo{
+        padding: 328px;
+    }
+
+   .text-franq{
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+   }
+
+   .footerdiv{
+    align-items: center;
+   }
+
+   .seccion2{
+    margin-right: 50px;
+   }
+
+   .inputmsj{
+    margin-left: -215px;
+   }
+
+   .submit1{
+    margin-left: 50px;
+   }
+
+   .seccion3{
+    flex-wrap: wrap;
+    margin-left: -72px;
+   }
+
+   .nombre{
+    padding-left: 78px;
+   }
+
+   .video{
+    padding-left: 13px;
+   }
+
+   .submit3{
+    flex-wrap: wrap;
+   }
+
+   .seccion5{
+    flex-wrap: wrap;
+    margin-right: 102px;
+   }
+
+   
+   .texto-nobu-1{
+    margin-left: -232px;
+    margin-top: -78px;
+    }
+
+   .imgsushi1{
+    width: 433px;
+    margin-left: -79px;
+   }
+
+   .seccion4{
+    flex-wrap: wrap;
+    margin-left: -64px;
+   }
+
+   .enunciadosreserva{
+    padding-top: 129px;
+    padding-left: 86px;
+   }
+
+   .seccion4-a{
+    margin-top: -87px;
+    margin-left: 48px;
+   }
+
+   .submit3{
+    margin-left: 5px;
+}
+
+   a{
+    padding-left: 79px;
+   }
+
+   .texto-nobu{
+    padding-right: 1px;
+    }
+
+
 
    .seccion5_5{
     padding-left: 57px;
@@ -373,33 +630,20 @@
     margin-left: 106px;
    }
 
+   .card-body{
+    height: 170px;
 }
 
-@media (max-width: 375px){
-    .seccion4 {
-        flex-wrap: wrap;
-        margin-left: -64px;
-        margin-top: 199px;
-    }
+.card-title{
+    width: 71vw;
+}
 
-    .enunciadosreserva{
-        padding-top: 120px;
-        padding-left: 86px;
-    }
+.card-text{
+    width: 71vw;
+}
 
-    .card-img-top{
-        width: 45%;
-   }
+.dash-line{
+    margin-top: 166px;
+}
 
-   .quote{
-      font-size: 0.7rem;
-   }
-
-   .nc{
-     font-size: 0.7rem;
-   }
-
-   
-
-   
 }

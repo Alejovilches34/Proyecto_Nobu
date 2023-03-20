@@ -58,9 +58,12 @@ a:hover {
 /*main*/
 /* index */
 .mainindex {
+  display: grid;
   grid-area: main;
+  grid-auto-rows: auto;
   width: 100%;
   background-color: black;
+  grid-gap: 0.5rem;
   /*Menu Delivery*/
 }
 .mainindex .section-main {
@@ -251,6 +254,12 @@ a:hover {
   margin-top: 51px;
 }
 
+.cuadro_2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
 .text-franq {
   margin-left: 39px;
   margin-top: 140px;
@@ -283,6 +292,11 @@ a:hover {
   max-width: 35%;
   margin: 0 30px;
   color: aliceblue;
+}
+.misionvision .textofranq {
+  font-size: 40px;
+  font-family: "raleway";
+  padding-bottom: 20px;
 }
 
 .franquicias2 {
@@ -470,47 +484,11 @@ a:hover {
   align-items: center;
 }
 
-/* Franquicias */
-.justify-content-center {
-  -webkit-box-pack: center !important;
-  justify-content: center !important;
-}
-
-.seccion_5 {
-  background-color: black;
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: 3px;
-}
-
-.titlecontact {
-  text-align: center;
-  font-size: 3.5rem;
-  color: #edf0f3;
-  font-weight: 700;
-  background-color: #000000;
-}
-
-.franq {
-  display: flex;
-  justify-content: right;
-  background-color: #000000;
-}
-
-.field {
-  height: 312px;
-  border-width: none;
-}
-
-.caja1 {
-  font-size: 1.25rem;
-}
-
+/* Contacto */
 .contact-section {
   background-color: #000000;
 }
-
-.contact-div {
+.contact-section .contact-div {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   width: 100%;
@@ -519,47 +497,16 @@ a:hover {
   margin-right: auto;
   margin-left: auto;
 }
-
-.nobu-mat {
-  margin-top: 1rem;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.nobuimg {
-  width: 600px;
-  vertical-align: middle;
-  margin-left: 50px;
-  margin-bottom: 50px;
-}
-
-.formulario1 {
-  max-width: 100%;
-  margin: 40px;
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.nombre-contact {
-  margin-bottom: 0.5rem;
-  font-size: 1.8rem;
-  color: aliceblue;
-  display: inline-block;
+.contact-section .contact-div .titulo {
+  text-align: center;
+  font-size: 3.2rem;
+  color: #c8d1d8;
+  font-weight: 700;
+  background-color: #000000;
   font-family: "Raleway";
+  padding-top: 78px;
 }
-
-.form-form2 {
-  margin: auto;
-  margin-bottom: 50px;
-}
-
-.botones-contact {
-  margin-bottom: 2rem;
-}
-
-.hhh {
+.contact-section .hhh {
   display: flex;
   flex-wrap: wrap;
   justify-items: center;
@@ -569,8 +516,40 @@ a:hover {
   margin-right: 151px;
   max-width: 100%;
 }
-
-.nombreinput {
+.contact-section .hhh .nobu-mat {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact-section .hhh .nobuimg {
+  width: 600px;
+  vertical-align: middle;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+.contact-section .formulario1 {
+  max-width: 100%;
+  margin: 40px;
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact-section .formulario1 .form-form2 {
+  margin: auto;
+  margin-bottom: 50px;
+}
+.contact-section .formulario1 .form-form2 .botones-contact {
+  margin-bottom: 2rem;
+}
+.contact-section .formulario1 .form-form2 .botones-contact .nombre-contact {
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+  color: aliceblue;
+  display: inline-block;
+  font-family: "Raleway";
+}
+.contact-section .formulario1 .form-form2 .botones-contact .nombreinput {
   display: block;
   width: 100%;
   padding: 10px;
@@ -584,47 +563,7 @@ a:hover {
   border-radius: 0.375rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-
-.titulo {
-  text-align: center;
-  font-size: 3.2rem;
-  color: #c8d1d8;
-  font-weight: 700;
-  background-color: #000000;
-  font-family: "Raleway";
-  padding-top: 78px;
-}
-
-.termycond {
-  display: block;
-  min-height: 1.5rem;
-  padding-left: 1.5rem;
-  color: aliceblue;
-  font-size: small;
-  border: 1px solid rgba(0, 0, 0, 0.25);
-  font-family: "Raleway";
-}
-
-.button {
-  text-align: center;
-  color: rgba(44, 81, 205, 0.967);
-  padding-top: 56px;
-}
-
-.button1 {
-  font-family: "Raleway";
-  font-size: 1.5rem;
-  padding: 0 2rem;
-  border-radius: 10px;
-  color: rgba(236, 236, 239, 0.967);
-  background-color: rgb(46, 36, 202);
-}
-
-.checklabel {
-  font-family: "raleway";
-}
-
-.consultaselec {
+.contact-section .formulario1 .form-form2 .botones-contact .consultaselec {
   display: block;
   width: 100%;
   padding: 0 2rem;
@@ -634,8 +573,7 @@ a:hover {
   border-radius: 10px;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-
-.cajacoment {
+.contact-section .formulario1 .form-form2 .botones-contact .cajacoment {
   display: block;
   width: 100%;
   padding: 0.375rem 0.75rem;
@@ -650,31 +588,40 @@ a:hover {
   border-radius: 0.375rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-
-.textofranq {
-  font-size: 40px;
-  font-family: "raleway";
-  padding-bottom: 20px;
-}
-
-.div-franquicia {
-  margin-left: 577px;
-  margin-top: -284px;
-  flex-wrap: wrap;
-}
-
-.direccion {
-  text-align: center;
-  display: inline-block;
-  font-family: "Raleway";
-}
-
-.h4 {
-  font-family: "Raleway";
-  font-size: 1rem;
+.contact-section .formulario1 .form-form2 .termycond {
+  display: block;
+  min-height: 1.5rem;
+  padding-left: 1.5rem;
   color: aliceblue;
+  font-size: small;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  font-family: "Raleway";
+}
+.contact-section .formulario1 .form-form2 .termycond .checklabel {
+  font-family: "raleway";
+}
+.contact-section .formulario1 .form-form2 .button {
   text-align: center;
-  width: 280px;
+  color: rgba(44, 81, 205, 0.967);
+  padding-top: 56px;
+}
+.contact-section .formulario1 .form-form2 .button .button1 {
+  font-family: "Raleway";
+  font-size: 1.5rem;
+  padding: 0 2rem;
+  border-radius: 10px;
+  color: rgba(236, 236, 239, 0.967);
+  background-color: rgb(46, 36, 202);
+}
+
+.titulo_1 {
+  text-align: center;
+  font-size: 3.2rem;
+  color: #c8d1d8;
+  font-weight: 700;
+  background-color: #000000;
+  font-family: "Raleway";
+  padding-top: 78px;
 }
 
 .list-franq {
@@ -694,6 +641,11 @@ a:hover {
   padding-right: 170px;
 }
 
+.justify-content-center {
+  -webkit-box-pack: center !important;
+  justify-content: center !important;
+}
+
 /*footer*/
 .footergrid {
   grid-area: footer;
@@ -711,7 +663,7 @@ a {
 }
 .footerrow .lista1 {
   font-size: 17px;
-  margin-right: 30px;
+  margin-right: -40px;
 }
 .footerrow .items {
   padding-right: 75px;
@@ -727,8 +679,7 @@ a {
   padding-left: 15px;
 }
 .footerrow .items .footernew {
-  padding-top: 20px;
-  margin-left: 64px;
+  padding-top: 10px;
 }
 .footerrow .items .footernew .imgsuscribe {
   height: 24px;
@@ -761,7 +712,14 @@ hr {
     display: inline-block;
     width: 100%;
   }
+  .gridcontainer {
+    width: 100vw;
+  }
   .encabezado {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .h2-boot {
     flex-wrap: wrap;
     flex-direction: column;
   }
@@ -772,6 +730,11 @@ hr {
   .section-main {
     display: flex;
     max-width: 100%;
+  }
+  iframe {
+    margin-left: 50px;
+    width: 100%;
+    height: 100%;
   }
   .footerrow {
     flex-direction: column;
@@ -844,6 +807,11 @@ hr {
   .texto-nobu, .mainindex .seccion5 .seccion5_5 .texto-nobu-1 {
     padding: 96px;
   }
+  .cuadro_2 {
+    margin-top: -47px;
+    margin-bottom: -332px;
+    flex-wrap: wrap;
+  }
   .enunciadosreserva {
     margin-right: 80px;
   }
@@ -894,13 +862,30 @@ hr {
   .dash-line-1 {
     margin-top: 54px;
   }
+  .card-body {
+    height: 170px;
+  }
+  .card-title {
+    width: 71vw;
+  }
+  .card-text {
+    width: 71vw;
+  }
+  .dash-line {
+    margin-top: 166px;
+  }
 }
-@media (max-width: 600px) {
+@media (min-width: 600px) and (max-width: 780px) {
   header main footer {
     display: inline-block;
     width: 100%;
   }
   .encabezado {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .h2-boot {
     flex-wrap: wrap;
     flex-direction: column;
   }
@@ -995,6 +980,171 @@ hr {
     padding-left: 57px;
   }
   .items {
+    padding-left: -4px;
+  }
+  .ig {
+    padding-right: 500px;
+  }
+  .copy {
+    margin-left: -345px;
+  }
+  .h1foot {
+    text-align: center;
+  }
+  .section {
+    margin-left: 68px;
+  }
+  .maps {
+    margin-left: 155px;
+  }
+  .Nusu {
+    margin-right: 31px;
+  }
+  .card-img-top {
+    width: 45%;
+  }
+  .card-body {
+    font-size: small;
+  }
+  .dash-line {
+    margin-top: 383px;
+  }
+  .franquicias1 {
+    margin-left: 70px;
+  }
+  .misionvision {
+    margin-right: 14px;
+  }
+  .franquicias2 {
+    margin-right: 77px;
+  }
+  .gastronomia {
+    display: flex;
+    flex-wrap: wrap;
+    color: aliceblue;
+  }
+  .dash-line-1 {
+    margin-top: 54px;
+  }
+  .horarios {
+    margin-left: 106px;
+  }
+  .btn {
+    margin-left: 325px;
+  }
+}
+@media (min-width: 340px) and (max-width: 600px) {
+  .bannermain {
+    width: 100vw;
+  }
+  .bannermain .promo {
+    margin-left: -207px;
+  }
+  .h2-boot {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .h3-boot-img {
+    flex-direction: column;
+    margin-left: 285px;
+  }
+  header main footer {
+    display: inline-block;
+    width: 100%;
+  }
+  .footerrow {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .h2 {
+    flex-direction: column;
+    margin-left: -68px;
+  }
+  .h3 {
+    flex-direction: column;
+    margin-left: -68px;
+  }
+  .nobuimg {
+    width: min-content;
+  }
+  .hhh {
+    flex-wrap: wrap;
+  }
+  .us_team_3 {
+    margin-top: 50px;
+  }
+  .img3 {
+    margin-left: 98px;
+  }
+  .promo {
+    padding: 328px;
+  }
+  .text-franq {
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+  .footerdiv {
+    align-items: center;
+  }
+  .seccion2 {
+    margin-right: 50px;
+  }
+  .inputmsj {
+    margin-left: -215px;
+  }
+  .submit1 {
+    margin-left: 50px;
+  }
+  .seccion3 {
+    flex-wrap: wrap;
+    margin-left: -72px;
+  }
+  .nombre {
+    padding-left: 78px;
+  }
+  .video {
+    padding-left: 13px;
+  }
+  .submit3 {
+    flex-wrap: wrap;
+  }
+  .seccion5 {
+    flex-wrap: wrap;
+    margin-right: 102px;
+  }
+  .texto-nobu-1 {
+    margin-left: -232px;
+    margin-top: -78px;
+  }
+  .imgsushi1 {
+    width: 433px;
+    margin-left: -79px;
+  }
+  .seccion4 {
+    flex-wrap: wrap;
+    margin-left: -64px;
+  }
+  .enunciadosreserva {
+    padding-top: 129px;
+    padding-left: 86px;
+  }
+  .seccion4-a {
+    margin-top: -87px;
+    margin-left: 48px;
+  }
+  .submit3 {
+    margin-left: 5px;
+  }
+  a {
+    padding-left: 79px;
+  }
+  .texto-nobu, .mainindex .seccion5 .seccion5_5 .texto-nobu-1 {
+    padding-right: 1px;
+  }
+  .seccion5_5 {
+    padding-left: 57px;
+  }
+  .items {
     padding-left: 41px;
   }
   .ig {
@@ -1044,25 +1194,17 @@ hr {
   .horarios {
     margin-left: 106px;
   }
-}
-@media (max-width: 375px) {
-  .seccion4 {
-    flex-wrap: wrap;
-    margin-left: -64px;
-    margin-top: 199px;
+  .card-body {
+    height: 170px;
   }
-  .enunciadosreserva {
-    padding-top: 120px;
-    padding-left: 86px;
+  .card-title {
+    width: 71vw;
   }
-  .card-img-top {
-    width: 45%;
+  .card-text {
+    width: 71vw;
   }
-  .quote {
-    font-size: 0.7rem;
-  }
-  .nc {
-    font-size: 0.7rem;
+  .dash-line {
+    margin-top: 166px;
   }
 }
 /* Variables Universales */
