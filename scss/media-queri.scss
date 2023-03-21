@@ -29,9 +29,8 @@
     }
 
     iframe{
-        margin-left: 50px;
+        margin-left: 85px;
         width: 100%;
-        height: 100%;
     }
 
     .footerrow{
@@ -81,6 +80,7 @@
    .seccion3{
     flex-wrap: wrap;
     margin-bottom: -179px;
+    
    }
 
    .nombre{
@@ -160,7 +160,7 @@
    }
 
    .dash-line{
-    margin-top: 257px;
+    margin-top: 396px;
 }
 
 .franquicias1{
@@ -201,17 +201,18 @@
     height: 170px;
 }
 
-.card-title{
-    width: 71vw;
-}
-
-.card-text{
-    width: 71vw;
-}
-
 .dash-line{
-    margin-top: 166px;
+    margin-top: 385px;
 }
+
+hr{
+    width: 895px;
+   }
+
+   .card-title{
+    font-size: small;
+   }
+
 }
 
 @media (min-width: 600px) and (max-width: 780px){
@@ -346,10 +347,6 @@
     padding-left: 57px;
    }
 
-   .items{
-    padding-left: -4px;
-   }
-
    .ig{
     padding-right: 500px;
    }
@@ -363,8 +360,16 @@
    }
 
    .section{
-    margin-left: 68px;
+    margin-left: -27px;
    } 
+
+   .sucursales{
+    margin-left: -15px;
+   }
+
+   .h4{
+    margin-left: 81px;
+   }
 
    .maps{
     margin-left: 155px;
@@ -416,10 +421,18 @@
      margin-left: 325px;
    }
 
+   hr{
+    width: 516px;
+   }
+
 }
 
 @media (min-width: 340px) and (max-width: 600px){
 
+    .headerenc{
+        width: 100%;
+    }
+    
     .bannermain{
         width: 100vw;
 
@@ -501,6 +514,7 @@
    .seccion3{
     flex-wrap: wrap;
     margin-left: -72px;
+    width: 100%;
    }
 
    .nombre{
@@ -520,7 +534,6 @@
     margin-right: 102px;
    }
 
-   
    .texto-nobu-1{
     margin-left: -232px;
     margin-top: -78px;
@@ -548,7 +561,7 @@
 
    .submit3{
     margin-left: 5px;
-}
+    }
 
    a{
     padding-left: 79px;
@@ -558,14 +571,8 @@
     padding-right: 1px;
     }
 
-
-
    .seccion5_5{
     padding-left: 57px;
-   }
-
-   .items{
-    padding-left: 41px;
    }
 
    .ig{
@@ -622,28 +629,31 @@
     color: aliceblue;
 }
 
-   .dash-line-1{
-    margin-top: 54px;
-}
-
-   .horarios{
+.horarios{
     margin-left: 106px;
    }
 
    .card-body{
-    height: 170px;
+    text-align: center;
 }
 
 .card-title{
     width: 71vw;
 }
 
-.card-text{
-    width: 71vw;
-}
-
-.dash-line{
+.dashline{
     margin-top: 166px;
 }
 
+.col{
+    align-items: center;
+}
+
+.card{
+    width: 100vw;
+    align-items: center;
+}
+ .footergrid{
+    margin-top: 50px;
+ }
 }
