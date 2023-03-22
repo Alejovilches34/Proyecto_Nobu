@@ -1,10 +1,10 @@
 @media (max-width: 992px){
-        header main footer{
-        display: inline-block;
-        width: 100%;
-     }
-
      .gridcontainer{
+        grid-template-areas: 
+        "he"
+        "main"
+        "footer";
+        justify-content: center;
         width: 100vw;
      }
 
@@ -216,9 +216,13 @@ hr{
 }
 
 @media (min-width: 600px) and (max-width: 780px){
-    header main footer{
-        display: inline-block;
-        width: 100%;
+    .gridcontainer{
+        grid-template-areas: 
+        "he"
+        "main"
+        "footer";
+        justify-content: center;
+        width: 100vw;
      }
      
     .encabezado{
@@ -428,7 +432,14 @@ hr{
 }
 
 @media (min-width: 340px) and (max-width: 600px){
-
+    .gridcontainer{
+        grid-template-areas: 
+        "he"
+        "main"
+        "footer";
+        justify-content: center;
+        width: 100vw;
+     }
     .headerenc{
         width: 100%;
     }
@@ -458,6 +469,7 @@ hr{
     .footerrow{
         flex-direction:column;
         flex-wrap: wrap;
+        margin-left: 46px;
     }
 
     .h2{

@@ -26,9 +26,8 @@ p {
 .gridcontainer{
     min-height: 100vh;
     display: grid;
-    justify-content: center;
     grid-template-areas: 
-    "header"
+    "he"
     "main"
     "footer";
 }
