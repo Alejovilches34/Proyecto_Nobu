@@ -429,9 +429,13 @@ a{
         "he"
         "main"
         "footer";
-        justify-content: center;
         width: 100vw;
      }
+
+    .container{
+        margin: 50px;
+    }
+
     .headerenc{
         width: 100%;
     }
@@ -464,12 +468,22 @@ a{
         flex-direction:column;
         flex-wrap: wrap;
         margin-left: 303px;
+        margin: 38px;
     }
 
     .items{
-        padding-left: 8px;
+        padding-left: 286px;
     }
 
+    .titulo{
+        padding: 5px;
+    }
+
+    .formulario1 {
+        width: 267px;
+        padding: 282px;
+        padding-top: 6px;
+    }
     .footernew{
         margin-left: 48px;
     }
@@ -497,7 +511,7 @@ a{
     }
 
    .hhh{
-    flex-wrap: wrap;
+     margin-bottom: -686px;
     }
 
     .us_team_3{
@@ -588,7 +602,7 @@ a{
     }
 
    a{
-    padding-left: 212px;
+    padding-left: 6px;
    }
 
    .seccion5_5{
@@ -624,7 +638,9 @@ a{
    }
 
    .card-body{
-        font-size: small;
+    font-size: small;
+    margin: 39px;
+    margin-left: 446px;
    }
 
    .dash-line{
@@ -653,10 +669,6 @@ a{
     margin-left: 106px;
    }
 
-   .card-body{
-    text-align: center;
-}
-
 .card-title{
     width: 71vw;
 }
@@ -669,9 +681,39 @@ a{
     align-items: center;
 }
 
+.enunciados-menu{
+    padding-left: 467px;;
+}
+
 .card{
-    width: 100vw;
-    align-items: center;
+    width: 75%;
+    align-items: flex-end;
+}
+
+.button{
+    margin-left: -69px;
+}
+
+.titulo_1{
+    font-size: 1rem;
+    margin-left: 92px;
+}
+
+.list-franq{
+    font-size: 1.2rem;
+    margin-left: 432px;
+    padding: 8px;
+    width: 358px;
+}
+
+.text-franq-1{
+    margin-left: 416px;
+    padding: 6px;
+    width: 258px;
+}
+
+strong{
+    margin-left: 50px;
 }
 
 }
