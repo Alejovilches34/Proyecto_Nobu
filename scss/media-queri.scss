@@ -385,8 +385,18 @@ a{
    }
 
    .card-body{
-        font-size: small;
+    font-size: small;
+    margin: 39px;
+    margin-left: 446px;
    }
+   .card{
+    width: 75%;
+    align-items: flex-end;
+}
+
+.card-title{
+    width: 71vw;
+}
 
    .dash-line{
         margin-top: 383px;
