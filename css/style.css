@@ -17,7 +17,6 @@ header {
 
 ul {
   padding: 40px;
-  font-size: 1rem;
 }
 
 a {
@@ -46,129 +45,111 @@ a:hover {
 
 /*main*/
 /* index */
-.mainindex {
-  grid-area: main;
-  width: 100%;
-  background-color: black;
-  /*Menu Delivery*/
-}
-.mainindex .section-main {
+.section-main {
   display: flex;
+  flex-direction: column;
 }
-.mainindex .section-main .bannermain {
+.section-main .bannermain {
   display: flex;
   justify-content: center;
   flex-direction: column;
   background-image: url(../images/Banner\ 2.jpg);
   width: 100%;
-  min-height: 60vh;
+  min-height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
-.mainindex .section-main .bannermain .promo {
+.section-main .bannermain .promo {
   padding-left: 15rem;
   font-family: "raleway";
   color: #e45eaf;
   font-size: 2rem;
   text-shadow: 1px 2px rgb(8, 8, 8);
 }
-.mainindex .seccion3 {
+.section-main .seccion3 {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  background-color: black;
   margin-top: 80px;
+  margin-left: 42px;
 }
-.mainindex .seccion3 .video {
-  margin-left: 26px;
-  padding-top: 50px;
+.section-main .seccion3 .video {
+  padding-top: 60px;
 }
-.mainindex .seccion3 .nombre {
+.section-main .seccion3 .nombre {
   text-decoration: underline;
   color: aliceblue;
-  text-decoration-color: rgb(223, 223, 216);
   margin: 28px;
-  padding-top: 20px;
+  padding-top: 32px;
 }
-.mainindex .seccion3 .texto-nobu, .mainindex .seccion3 .seccion5 .seccion5_5 .texto-nobu-1, .mainindex .seccion5 .seccion5_5 .seccion3 .texto-nobu-1 {
-  margin: 28px;
-  padding-top: 9px;
+.section-main .seccion3 .texto-nobu, .section-main .seccion3 .seccion5 .seccion5_5 .texto-nobu-1, .section-main .seccion5 .seccion5_5 .seccion3 .texto-nobu-1 {
+  margin: 27px;
+  margin-top: 24px;
+  color: aliceblue;
 }
-.mainindex .seccion4 {
+.section-main .seccion4 {
   display: flex;
   flex-direction: row;
-  margin-left: 287px;
   margin-top: 68px;
-  background-color: black;
 }
-.mainindex .seccion4 .enunciadosreserva {
+.section-main .seccion4 .enunciadosreserva {
   font-size: 2.6rem;
   color: aliceblue;
   margin-top: 96px;
-  margin-bottom: 92px;
 }
-.mainindex .seccion4 .submit3 {
-  text-align: center;
+.section-main .seccion4 .submit3 {
   border-radius: 11px;
   width: 289px;
   height: 75px;
   background-color: rgb(19, 111, 127);
   border-color: rgb(34, 158, 189);
-  margin-top: 95px;
   font-size: 25px;
+  margin-left: 74px;
+  margin-top: 87px;
 }
-.mainindex .seccion5 {
+.section-main .seccion5 {
   display: flex;
   justify-content: center;
   flex-direction: row-reverse;
-  background-color: black;
-  margin-right: 3px;
 }
-.mainindex .seccion5 .imgsushi1 {
-  height: 354px;
-  margin-right: 33px;
-  margin-top: 95px;
-  margin-bottom: -50px;
-}
-.mainindex .seccion5 .seccion5_5 {
+.section-main .seccion5 .seccion5_5 {
   width: 75%;
   margin: 99px;
   margin-top: 108px;
 }
-.mainindex .seccion5 .seccion5_5 .en {
+.section-main .seccion5 .seccion5_5 .en {
   text-decoration: underline;
   color: aliceblue;
-  text-decoration-color: rgb(223, 223, 216);
-  padding-top: 20px;
-  padding-bottom: 18px;
-  margin-left: 43px;
 }
-.mainindex .seccion5 .seccion5_5 .texto-nobu-1 {
-  margin-left: -75px;
+.section-main .seccion5 .seccion5_5 .texto-nobu-1 {
+  color: aliceblue;
 }
-.mainindex .enunciados-menu {
+
+/*Menu Delivery*/
+.enunciados-menu {
   margin-left: 79px;
   margin-top: 50px;
   font-size: 2.3rem;
   text-decoration: underline;
 }
-.mainindex .row {
+
+.row {
   width: 100%;
   margin-left: -47px;
 }
-.mainindex .row .col {
+.row .col {
   align-items: center;
 }
-.mainindex .row .col .card {
+.row .col .card {
   margin: 60px 0 0 69px;
   background-color: black;
 }
-.mainindex .row .col .card .card-text {
+.row .col .card .card-text {
   background-color: #000000;
 }
-.mainindex .row .col .card .card-title {
+.row .col .card .card-title {
   font-size: 2.3rem;
   font-family: "Raleway";
   color: aliceblue;
@@ -783,7 +764,7 @@ hr {
   a {
     padding-left: 79px;
   }
-  .texto-nobu, .mainindex .seccion5 .seccion5_5 .texto-nobu-1 {
+  .texto-nobu, .section-main .seccion5 .seccion5_5 .texto-nobu-1 {
     padding: 96px;
   }
   .cuadro_2 {
@@ -926,7 +907,7 @@ hr {
     width: 100vw;
     margin-right: -147px;
   }
-  .texto-nobu, .mainindex .seccion5 .seccion5_5 .texto-nobu-1 {
+  .texto-nobu, .section-main .seccion5 .seccion5_5 .texto-nobu-1 {
     padding: 136px;
   }
   .submit3 {
@@ -1125,7 +1106,7 @@ hr {
   .nombre {
     padding-left: 22rem;
   }
-  .texto-nobu, .mainindex .seccion5 .seccion5_5 .texto-nobu-1 {
+  .texto-nobu, .section-main .seccion5 .seccion5_5 .texto-nobu-1 {
     padding-left: 22rem;
   }
   .video {

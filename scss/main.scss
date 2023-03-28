@@ -7,19 +7,15 @@
 }
 
 /* index */
-.mainindex{
-    grid-area: main;
-    width: 100%;
-    background-color: $background-color;
-   
-    .section-main{
+  .section-main{
         display: flex;
+        flex-direction: column;
 
         .bannermain{
             @include flex (column);
             background-image: url(../images/Banner\ 2.jpg);
             width: 100%;
-            min-height: 60vh;
+            min-height: 80vh;
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -33,68 +29,58 @@
             text-shadow: 1px 2px rgb(8, 8, 8);
             }
         }  
-    }
+    
 
-    .seccion3{
+       .seccion3{
         @include flex (row);
-        background-color: black;
         margin-top: 80px;
+        margin-left: 42px;
 
         .video{
-        margin-left: 26px;
-        padding-top: 50px;
+        padding-top: 60px;
         }
 
         .nombre{
         text-decoration: underline; 
         color: aliceblue;
-        text-decoration-color: rgb(223, 223, 216);
         margin: 28px;
-        padding-top: 20px;
+        padding-top: 32px;
         }
 
         .texto-nobu{
-        margin: 28px;
-        padding-top: 9px;
+        margin: 27px;
+        margin-top: 24px;
+        color: aliceblue;
         }
-    }
+       }
 
-    .seccion4{
+       .seccion4{
         display: flex;
         flex-direction: row;
-        margin-left: 287px;
         margin-top: 68px;
-        background-color: black;
 
         .enunciadosreserva{
         font-size: 2.6rem;
         color: aliceblue;
         margin-top: 96px;
-        margin-bottom: 92px;
         }
 
         .submit3{
-        text-align: center;
         border-radius: 11px;
         width: 289px;
         height: 75px;
         background-color: rgb(19, 111, 127);
         border-color: rgb(34, 158, 189);
-        margin-top: 95px;
         font-size: 25px;
+        margin-left: 74px;
+        margin-top: 87px;
         }
-    }
+       }
    
-    .seccion5{
+       .seccion5{
         @include flex(row-reverse);
-        background-color: black;
-        margin-right: 3px;
         
         .imgsushi1{
-        height: 354px;
-        margin-right: 33px;
-        margin-top: 95px;
-        margin-bottom: -50px;
         }
 
         .seccion5_5{
@@ -105,17 +91,14 @@
         .en{
         text-decoration: underline; 
         color: aliceblue;
-        text-decoration-color: rgb(223, 223, 216);
-        padding-top: 20px;
-        padding-bottom: 18px;
-        margin-left: 43px;
         }
         
         .texto-nobu-1{
         @extend .texto-nobu;
-        margin-left: -75px;
+        color: aliceblue;
         }
         }
+      }
     }
 
     /*Menu Delivery*/
@@ -150,7 +133,7 @@
         }
         }
     }
-}
+
 
 /* pedidos */
 
