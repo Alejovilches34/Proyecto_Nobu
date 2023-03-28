@@ -78,6 +78,9 @@ a:hover {
 .section-main .seccion3 .video {
   padding-top: 60px;
 }
+.section-main .seccion3 .seccion3_1 {
+  margin-top: 36px;
+}
 .section-main .seccion3 .nombre {
   text-decoration: underline;
   color: aliceblue;
@@ -114,9 +117,12 @@ a:hover {
   justify-content: center;
   flex-direction: row-reverse;
 }
+.section-main .seccion5 .imgsushi1 {
+  width: 750px;
+}
 .section-main .seccion5 .seccion5_5 {
   width: 75%;
-  margin: 99px;
+  margin: 44px;
   margin-top: 108px;
 }
 .section-main .seccion5 .seccion5_5 .en {
@@ -622,28 +628,31 @@ a:hover {
 }
 
 /*footer*/
-.footergrid {
+.footer {
   grid-area: footer;
-  width: 100%;
-  background-color: rgb(26, 16, 18);
 }
 
 a {
   text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: aliceblue;
 }
 
 .footerrow {
   display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(26, 16, 18);
 }
 .footerrow .lista1 {
   font-size: 17px;
   margin-right: -40px;
 }
 .footerrow .items {
-  padding-right: 75px;
-  font-size: 1.25rem;
-  margin: 56px;
+  font-size: 1.05rem;
+  margin: 50px;
 }
 .footerrow .items .imgsuscribe1 {
   height: 25px;
@@ -654,25 +663,11 @@ a {
   padding-left: 15px;
 }
 .footerrow .items .footernew {
-  padding-top: 10px;
+  margin-top: -35px;
+  margin-left: 40px;
 }
 .footerrow .items .footernew .imgsuscribe {
   height: 24px;
-}
-
-.copy {
-  color: aliceblue;
-  font-size: 1rem;
-  margin-top: -10px;
-  margin-bottom: 9px;
-  width: 100%;
-  padding-left: 550px;
-}
-.copy .h1foot {
-  font-size: 1rem;
-  margin-left: -12px;
-  margin-top: 19px;
-  margin-bottom: 0;
 }
 
 hr {
@@ -680,6 +675,13 @@ hr {
   size: 1.25rem;
   color: aliceblue;
   margin-top: -4px;
+}
+
+.copy {
+  color: aliceblue;
+  font-size: 1rem;
+  background-color: rgb(26, 16, 18);
+  width: 100%;
 }
 
 @media (max-width: 992px) {

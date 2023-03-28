@@ -40,6 +40,10 @@
         padding-top: 60px;
         }
 
+        .seccion3_1{
+            margin-top: 36px;
+        }
+
         .nombre{
         text-decoration: underline; 
         color: aliceblue;
@@ -79,13 +83,14 @@
    
        .seccion5{
         @include flex(row-reverse);
-        
-        .imgsushi1{
-        }
 
+        .imgsushi1{
+            width: 750px;
+        }
+        
         .seccion5_5{
         width: 75%;
-        margin: 99px;
+        margin: 44px;
         margin-top: 108px;
 
         .en{
