@@ -1,17 +1,12 @@
 @media (max-width: 992px){
      .gridcontainer{
         grid-template-areas: 
-        "he"
+        "headerr"
         "main"
         "footer";
         justify-content: center;
         width: 100vw;
      }
-
-    .encabezado{
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
 
     .h2-boot{
         flex-wrap: wrap;
@@ -204,20 +199,18 @@ hr{
 
 }
 
-@media (min-width: 600px) and (max-width: 780px){
+@media (max-width: 500px){
     .gridcontainer{
         grid-template-areas: 
         "he"
         "main"
         "footer";
-        justify-content: center;
-        width: 100vw;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
      }
      
     .encabezado{
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
+        display: none;
     }
 
     .h2-boot{
@@ -433,7 +426,7 @@ a{
    }
 }
 
-@media (min-width: 250px) and (max-width: 600px){
+@media (max-width: 250px){
     .gridcontainer{
         grid-template-areas: 
         "he"

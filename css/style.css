@@ -1,34 +1,28 @@
 /* Variables globales */
-.headerenc {
-  grid-area: he;
-  width: 100%;
-  background-color: black;
+header {
+  grid-area: headerr;
 }
-.headerenc .encabezado {
-  background-color: black;
-  display: flex;
-  justify-content: space-around;
-  height: auto;
-}
-.headerenc .encabezado .logo {
+
+.logo {
   height: auto;
   border-radius: 30px;
 }
-.headerenc .encabezado .h2 {
+
+.h2 {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
-.headerenc .encabezado .h2 ul {
+
+ul {
   padding: 40px;
   font-size: 1rem;
 }
-.headerenc .encabezado .h3 {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  flex-wrap: wrap;
+
+a {
+  text-decoration: none;
+  color: aliceblue;
 }
 
 a:hover {
@@ -48,11 +42,6 @@ a:hover {
   text-decoration: none;
   font-size: 1.2em;
   font-style: normal;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.nav_responsive-li {
-  background-color: #000000;
 }
 
 /*main*/
@@ -714,13 +703,9 @@ hr {
 
 @media (max-width: 992px) {
   .gridcontainer {
-    grid-template-areas: "he" "main" "footer";
+    grid-template-areas: "headerr" "main" "footer";
     justify-content: center;
     width: 100vw;
-  }
-  .encabezado {
-    flex-wrap: wrap;
-    flex-direction: column;
   }
   .h2-boot {
     flex-wrap: wrap;
@@ -869,16 +854,14 @@ hr {
     font-size: small;
   }
 }
-@media (min-width: 600px) and (max-width: 780px) {
+@media (max-width: 500px) {
   .gridcontainer {
     grid-template-areas: "he" "main" "footer";
-    justify-content: center;
-    width: 100vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
   }
   .encabezado {
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
+    display: none;
   }
   .h2-boot {
     flex-wrap: wrap;
@@ -1043,7 +1026,7 @@ hr {
     margin-left: 325px;
   }
 }
-@media (min-width: 250px) and (max-width: 600px) {
+@media (max-width: 250px) {
   .gridcontainer {
     grid-template-areas: "he" "main" "footer";
     width: 100vw;
@@ -1271,23 +1254,18 @@ hr {
   }
 }
 /* Variables Universales */
-* {
-  padding: 0%;
-  margin: 0%;
-  box-sizing: border-box;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-p {
-  font-size: larger;
-  font-family: "Raleway";
-  color: aliceblue;
-}
-
-.gridcontainer {
-  min-height: 100vh;
+main {
   display: grid;
-  grid-template-areas: "he" "main" "footer";
+  font-family: "raleway";
+  height: 100vh;
+  grid-template-areas: "headerr" "contenido" "footer";
+}
+
+main > * {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
