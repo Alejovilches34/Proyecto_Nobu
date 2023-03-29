@@ -210,6 +210,14 @@ hr{
         grid-template-rows: 1fr;
      }
 
+     .nav_of{
+        display: none;
+     }
+
+     .navbar{
+        justify-content: center;
+     }
+
      header{
         flex-wrap: wrap;
      }
@@ -281,10 +289,6 @@ hr{
      .listado_footer{
         font-size: 2rem;
         margin: 16px;
-     }
-
-     .imgsuscribe1{
-        width: 100%;
      }
 }
 

@@ -7,7 +7,7 @@
 }
 
 /* index */
-  .section-main{
+.section-main{
         display: flex;
         flex-direction: column;
 
@@ -105,59 +105,47 @@
         }
         }
       }
-    }
+}
 
-    /*Menu Delivery*/
+/*Menu Delivery*/
 
-    .enunciados-menu{
-        margin-left: 79px;
-        margin-top: 50px;
-        font-size: 2.3rem;
-        text-decoration: underline;
-    }
+.enunciados-menu{
+    color: aliceblue;
+    font-size: 2.3rem;
+    text-decoration: underline;
+}
 
-    .row{
-        width: 100%;
-        margin-left: -47px;
+.col{
+    align-items: center;
 
-        .col{
-        align-items: center;
+    .card-body{
+        background-color: black;
 
-        .card{
-            margin: 60px 0 0 69px;
-            background-color: black;
-
-            .card-text{
-             background-color: #000000;
-            }
-                                    
-            .card-title{
-             font-size: 2.3rem;
-             font-family: 'Raleway';
-             color: aliceblue;
-            }
+        .card-title{
+            font-size: 2.3rem;
+            color: aliceblue;
         }
+
+        .card-text{
+            color: aliceblue;
         }
     }
+}
 
 
 /* pedidos */
 
 .pedidos{
-    @include flex (column);
-    background-image: url(../images/Background\ pedidos.jpg);
-    width: 100%;
-    min-height: 70vh;
+    background-image: url(../images/fondo_pedidos-transformed.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
  
     .seccion2{
-        margin: auto;
         padding: 86px;
 
         .enunciadosreserva1{
-            font-size: 2.6rem;
+            font-size: 3rem;
             color: aliceblue;
             margin-right: 708px;
             font-family: 'Raleway';
@@ -166,480 +154,296 @@
         .submit1 {
             text-align: center;
             border-radius: 11px;
-            width: 245px;
-            height: 41px;
+            width: 268px;
+            height: 61px;
+            font-size: 1.2rem;
+            color: blanchedalmond;
             background-color: rgb(31, 172, 55);
             border-color: rgb(31 172 55);
-            margin-left: -264px;
-            margin-top: 104px;
         }
         
         .submit2{
             @include flex(row);
             text-align: center;
             border-radius: 11px;
-            width: 245px;
-            height: 41px;
+            width: 268px;
+            height: 61px;
+            font-size: 1.2rem;
+            color: blanchedalmond;
             background-color: rgb(91, 8, 8);
             border-color: rgb(104, 66, 66);
-            margin-left: -263px;
-            margin-top: 31px;
+            margin-top: 24px;
         }
     }
 }  
 
 /* franquicias */
 
-.quote{
-    display: block;
-    background-color: #000000;
-    border-top: 1px solid #666;
-    border-bottom: 1px solid #666;
-
-    .uvps{
-        font-family: 'raleway';
-        text-align: center;
-    }
-}
-
-.nc {
-    text-align: center;
-    color: aliceblue;
-    font-size: 3rem;
-    font-family: 'Raleway';
-    margin-top: 51px;
-    
-}
-
-.cuadro_2{
-    @include flex(row)
-}
-
-.text-franq{
-    margin-left: 39px;
-    margin-top: 140px;
-    padding-right: 31px;
-}
-
-.franquicias1{
-    margin-right: 50px;
-    margin-top: 69px;
-}
-
-.dash-line{
-    margin: 50px 0;
-    border-top: 1px dashed aliceblue;
-}
-
-.misionvision{
-    @include flex(row);
-    text-align: center;
-    padding: 0 0 56px;
-
-    #vision{
-        max-width: 35%;
-        margin: 0 30px;
-        color: aliceblue;
-    }
-    
-    #mision{
-        max-width: 35%;
-        margin: 0 30px;
-        color: aliceblue;
-    }
-
-    .textofranq{
-        font-size: 40px;
-        font-family: 'raleway';
-        padding-bottom: 20px;
-    }
-}
-
-.franquicias2{
-    width: 90%;
-    margin-left: 73px;
-}
-
-.h5h5{
-    font-family: 'Raleway';
-    font-size: 20px;
-    color: aliceblue;
-    padding: 34px;
-    text-align: center;
-    margin: 25px 150px;
-    border-top: 1px solid aliceblue;
-    border-bottom: 1px solid aliceblue;
-}
-
-.textofranq1{
-    font-size: 40px;
-    font-family: 'raleway';
-    color: aliceblue;
-    text-decoration: underline;
-    text-align: left;
-    margin: 48px 147px;
-}
-
-.us_team{
+.franquicias{
     display: flex;
-    justify-content: space-between;
-    width: 350px;
-    color: aliceblue;
-    margin: 0 146px;
-    font-family: 'Raleway';
+    flex-direction: column;
 
-    .us_team_2{
-        padding: 0;
-        margin: 0;
-
-        .strong{
-            font-family: 'Raleway';
-            margin: 9px 3px;
-            padding: 0px 12px; 
+    .quote{
+        width: 69rem;
+        border-top: 1px solid #666;
+        border-bottom: 1px solid #666;
+    
+        .uvps{
+            color: aliceblue;
+            font-size: 1.5rem;
+            text-align: center;
         }
-        }
-}
-
-.dash-line-1{
-    margin: 50px 0;
-    border-top: 1px dashed aliceblue;
-}    
-
-.dashline{
-    border: 0; 
-    height: 0; 
-    border-top: 4px double aliceblue; text-align:center;
-}
-
-.gastronomia{
-    @include flex(row);
-    color: aliceblue;
-
-    .img3{
-        width: 600px;
-        margin-left: 100px;
     }
     
-    .us_team_3{
-        margin-left: 49px;
-        font-family: 'Raleway';
-        font-size: 30px;
-        padding: 8px;
-    }
-    
-    .textofranq3{
-        margin-left: 56px;
-        font-family: 'Raleway';
-        font-size: 20px;
-        padding-right: 67px;
-    }
-}
-
-.section{
-    background-color: #000000;
-    padding: 10px;
-
-    .Nusu{
+    .nc {
         text-align: center;
         color: aliceblue;
         font-size: 3rem;
-        font-family: 'Raleway';
+    }
+    
+    .cuadro_2{
+        @include flex(row)
+    }
+    
+    .text-franq{
+        color: aliceblue;
+        font-size: 1.3rem;
+        margin-left: 16px;
+        margin-top: 59px;
+        padding-right: 22px;
+    }
+    
+    .franquicias1{
+        margin-right: 20px;
+    }
+    
+    .dash-line{
+        width: 100%;
+        margin: 50px 0;
+        border-top: 1px dashed aliceblue;
+    }
+    
+    .misionvision{
+        @include flex(row);
+        text-align: center;
+        padding: 0 0 30px;
+    
+        #vision{
+            margin: 0 30px;
+            color: aliceblue;
         }
+        
+        #mision{
+            max-width: 35%;
+            margin: 0 30px;
+            color: aliceblue;
+        }
+    
+        .textofranq{
+            font-size: 40px;
+        }
+    }
+    
+    .franquicias2{
+        margin-left: 73px;
+    }
+    
+    .h5h5{
+        font-size: 20px;
+        color: aliceblue;
+        padding: 34px;
+        text-align: center;
+        border-top: 1px solid aliceblue;
+        border-bottom: 1px solid aliceblue;
+    }
+    
+    .textofranq1{
+        font-size: 40px;
+        color: aliceblue;
+    }
+    
+    .us_team{
+       color: aliceblue;
+        
+        .strong{
+            margin: 29px 82px;
+            padding: 2px 4px; 
+        }
+    }
 
-    .maps{
-        display: flex;
-        align-items: center;
-        margin-bottom: 46px;
-        margin-left: 190px;
-        flex-wrap: wrap;
-
-        .sucursales{
-         padding: 34px;
-
-         h4{
-            font-family: 'Raleway';
-            font-size: 25px;
+   .gastronomia{
+        @include flex(row);
+        color: aliceblue;
+    
+        .img3{
+            width: 600px;
+            margin-left: 61px;
         }
-         .lugares{
-                color: aliceblue;
-                text-align: center;
-            }
+        
+        .us_team_3{
+            margin-left: 39px;
+            font-size: 30px;
         }
+        
+        .textofranq3{
+            margin-left: 39px;
+            padding-right: 55px;
+            font-size: 1.5rem;
         }
+    }
+    
+.Nusu{
+    text-align: center;
+    color: aliceblue;
+    font-size: 3rem;
 }
-
+ 
+.maps{
+    display: flex;
+    
+    .sucursales{
+        padding: 34px;
+    
+             .lugares{
+                    color: aliceblue;
+                    text-align: center;
+                }
+    }
+}    
+   
 .horarios{
-    font-size: 1.5rem;
-    margin-bottom: 25px;
-    margin-left: 381px;
+    font-size: 3rem;
+    color: aliceblue;
+ }
 }
 
 /*Sushigift - Bootstrap*/
 
-.gridcontainerboot{
-    min-height: 100vh;
-    display: grid;
-    grid-template-areas: 
-    "header"
-    "main"
-    "footer";
-    background-color: #000000;
+.p-4{
+    margin: auto;
+    font-size: 2rem;
+    color: #c82953;
+    text-align: center;
 }
 
-.h2-boot{
-    @include flex(row);
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 19px;
-
-    .ul-boot-header{
-        padding: 40px;
-        font-size: 1rem;
-    }
-
-    .h3-boot-img{
-        @include flex(row);
-        align-content: center;
-        flex-wrap: wrap;
-        height: 140px;
+.p-2{
+    font-size: 3.5rem; 
+    text-align: center;
+    color: #c82953;
+    font-weight: 700;
 }
-    }
 
-.container-fluid{
-    background-color: #000000;
+.input-group{
+    font-size: 1rem;
+    margin-top: 57px ;
+}
 
-    .p-4{
-        width: 100%;
-        margin: auto;
-        font-size: 2.3rem;
-        color: #c82953;
-        text-align: center;
-        font-family: 'raleway';
-        border-top: 1px solid #666;
-        border-bottom: 1px solid #666;
+.p-4-1{
+    color: aliceblue;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-size: 2rem;
+    text-align: center;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+}
 
-        .imgboot{
-            max-width: 100%;
-        }
-    }
-
-    .p-2{
-        font-size: 3.5rem; 
-        text-align: center;
-        color: #c82953;
-        font-family: 'Raleway';
-        font-weight: 700;
-    }
-
-    .form-select{
-        font-size: 1rem;
-        font-family: 'raleway';
-        margin: 57px 0 57px 0
-    }
-
-    .input-group{
-        font-size: 1rem;
-        font-family: 'raleway';
-        margin-top: 57px ;
-    }
-
-    .p-4-1{
-        width: 100%;
-        margin-bottom: 57px;
-        margin-top: 57px;
-        font-size: 2.3rem;
-        text-align: center;
-        font-family: 'raleway';
-        border-top: 1px solid #666;
-        border-bottom: 1px solid #666;
-    }
-
-    .btn{
-        margin-left: 600px;
-        margin-top: 50px;
-        font-family: 'Raleway';
-        font-weight: 500;
-        align-items: center;
-    }
-        
+.btn{
+    margin-top: 50px;
 }
 
 /* Contacto */
 
-.contact-section{
-    background-color: #000000;
+.contact{
+    flex-direction: column;
 
-    .contact-div{
-        --bs-gutter-x: 1.5rem;
-        --bs-gutter-y: 0;
-        width: 100%;
-        padding-right: calc(var(--bs-gutter-x) * 0.5);
-        padding-left: calc(var(--bs-gutter-x) * 0.5);
-        margin-right: auto;
-        margin-left: auto;
-
-        .titulo{
-            text-align: center;
-            font-size: 3.2rem;
-            color: #c8d1d8;
-            font-weight: 700;
-            background-color: #000000;
-            font-family: 'Raleway';
-            padding-top: 78px;
-        }
+    .titulo{
+        font-size: 3.2rem;
+        color: #c8d1d8;
     }
 
-    .hhh {
+    .contact_funcion {
         display: flex;
-        flex-wrap: wrap;
-        justify-items: center;
-        align-items: center;
-        margin-top: 52px;
-        margin-left: 90px;
-        margin-right: 151px;
-        max-width: 100%;
 
-        .nobu-mat{
-            margin-top: 1rem;
-            display: flex;  
-            flex-wrap: wrap;
-            }
-
-        .nobuimg{
-            width: 600px;
-            vertical-align: middle;
-            margin-left: 50px;
-            margin-bottom: 50px;
-            }
+        .formulario1{
+            margin: 40px;
+     
+                 .botones-contact{
+                     margin-bottom: 2rem;
+     
+                     .nombre-contact{
+                         margin-bottom: 0.5rem;
+                         font-size: 2rem;
+                         color: aliceblue;
+                         display: inline-block;
+                     } 
+     
+                     .nombreinput{
+                         width: 100%;
+                         padding: 10px;
+                         font-size: 1.3rem;
+                         border: 1px solid #ced4da;
+                         border-radius: 0.375rem;
+                         }
+     
+                     .consultaselec{
+                         width: 100%;
+                         font-size: 2.5rem;
+                         border-radius: 10px;
+                     }
+     
+                     .cajacoment{
+                         width: 100%;
+                         font-size: 1.3rem;
+                         line-height: 2;
+                         border-radius: 0.375rem;
+                     }
+                 }
+     
+                 .termycond{
+                     color: aliceblue;
+                     border: 1px solid rgba(0, 0, 0, 0.25);
+                 }
+     
+                 .button{
+                     text-align: center;
+                     color: rgba(44, 81, 205, 0.967);
+                     padding-top: 56px;
+                 
+                     .button1{
+                         font-family: 'Raleway';
+                         font-size: 1.5rem;
+                         padding: 0 5rem;
+                         border-radius: 10px;
+                         color: rgba(236, 236, 239, 0.967) ;
+                         background-color: rgb(46, 36, 202, 1);
+                     }
+                 }
+         }
     }
 
-    .formulario1{
-        max-width: 100%;
-        margin: 40px;
-        --bs-gutter-x: 1.5rem;
-        --bs-gutter-y: 0;
-        display: flex;
-        flex-wrap: wrap;
 
-        .form-form2{
-            margin: auto;
-            margin-bottom: 50px;
+}
 
-            .botones-contact{
-                margin-bottom: 2rem;
-
-                .nombre-contact{
-                    margin-bottom: 0.5rem;
-                    font-size: 1.8rem;
-                    color: aliceblue;
-                    display: inline-block;
-                    font-family: 'Raleway';
-                } 
-
-                .nombreinput{
-                    display: block;
-                    width: 100%;
-                    padding: 10px;
-                    padding-right: 17.75rem;
-                    font-size: 1.3rem;
-                    color: #0c0808;
-                    background-color: white;
-                    background-clip: padding-box;
-                    border: 1px solid #ced4da;
-                    appearance: none;
-                    border-radius: 0.375rem;
-                    transition: border-color 0.15s ease-in-out, 
-                    box-shadow 0.15s ease-in-out;
-                }
-
-                .consultaselec{
-                    display: block;
-                    width: 100%;
-                    padding: 0 2rem;
-                    -moz-padding-start: calc(0.75rem - 3px);
-                    font-size: 1.5rem;
-                    color: #000000;
-                    border-radius: 10px;
-                    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-                }
-
-                .cajacoment{
-                    display: block;
-                    width: 100%;
-                    padding: 0.375rem 0.75rem;
-                    font-size: 1.3rem;
-                    line-height: 1.5;
-                    color: #0c0808;
-                    font-weight: 300;
-                    background-color: white;
-                    background-clip: padding-box;
-                    border: 1px solid #ced4da;
-                    appearance: none;
-                    border-radius: 0.375rem;
-                    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-                }
-            }
-
-            .termycond{
-                display: block;
-                min-height: 1.5rem;
-                padding-left: 1.5rem;
-                color: aliceblue;
-                font-size: small;
-                border: 1px solid rgba(0, 0, 0, 0.25);
-                font-family: 'Raleway';
-
-                .checklabel{
-                    font-family: 'raleway';
-                }
-            }
-
-            .button{
-                text-align: center;
-                color: rgba(44, 81, 205, 0.967);
-                padding-top: 56px;
-            
-                .button1{
-                    font-family: 'Raleway';
-                    font-size: 1.5rem;
-                    padding: 0 2rem;
-                    border-radius: 10px;
-                    color: rgba(236, 236, 239, 0.967) ;
-                    background-color: rgb(46, 36, 202, 1);
-                }
-            }
-        }
-    }
+.dash-line{
+    width: 100%;
+    margin: 50px 0;
+    border-top: 1px dashed aliceblue;
 }
 
 .titulo_1{
-    text-align: center;
     font-size: 3.2rem;
     color: #c8d1d8;
-    font-weight: 700;
-    background-color: #000000;
-    font-family: 'Raleway';
-    padding-top: 78px;
 }
 
 .list-franq{
     font-size: 1.3rem;
     color: aliceblue;
-    font-family: 'raleway';
-    margin-left: 142px;
     padding: 21px;
 }
 
 .text-franq-1{
     font-size: 1.3rem;
     color: aliceblue;
-    font-family: 'raleway';
-    margin-left: 116px;
-    padding-bottom: 16px;
-    padding-right: 170px;
-}
-
-.justify-content-center{
-    -webkit-box-pack: center !important;
-    justify-content: center !important;
+    margin-left: 37px;
 }

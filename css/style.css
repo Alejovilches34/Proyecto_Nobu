@@ -3,12 +3,17 @@ header {
   grid-area: headerr;
 }
 
+.navbar {
+  display: none;
+}
+
 .logo {
   height: auto;
   border-radius: 30px;
 }
 
 .h2 {
+  font-size: 1rem !important;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -136,50 +141,37 @@ a:hover {
 
 /*Menu Delivery*/
 .enunciados-menu {
-  margin-left: 79px;
-  margin-top: 50px;
+  color: aliceblue;
   font-size: 2.3rem;
   text-decoration: underline;
 }
 
-.row {
-  width: 100%;
-  margin-left: -47px;
-}
-.row .col {
+.col {
   align-items: center;
 }
-.row .col .card {
-  margin: 60px 0 0 69px;
+.col .card-body {
   background-color: black;
 }
-.row .col .card .card-text {
-  background-color: #000000;
-}
-.row .col .card .card-title {
+.col .card-body .card-title {
   font-size: 2.3rem;
-  font-family: "Raleway";
+  color: aliceblue;
+}
+.col .card-body .card-text {
   color: aliceblue;
 }
 
 /* pedidos */
 .pedidos {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  background-image: url(../images/Background\ pedidos.jpg);
-  width: 100%;
-  min-height: 70vh;
+  background-image: url(../images/fondo_pedidos-transformed.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .pedidos .seccion2 {
-  margin: auto;
   padding: 86px;
 }
 .pedidos .seccion2 .enunciadosreserva1 {
-  font-size: 2.6rem;
+  font-size: 3rem;
   color: aliceblue;
   margin-right: 708px;
   font-family: "Raleway";
@@ -187,12 +179,12 @@ a:hover {
 .pedidos .seccion2 .submit1 {
   text-align: center;
   border-radius: 11px;
-  width: 245px;
-  height: 41px;
+  width: 268px;
+  height: 61px;
+  font-size: 1.2rem;
+  color: blanchedalmond;
   background-color: rgb(31, 172, 55);
   border-color: rgb(31, 172, 55);
-  margin-left: -264px;
-  margin-top: 104px;
 }
 .pedidos .seccion2 .submit2 {
   display: flex;
@@ -200,432 +192,249 @@ a:hover {
   flex-direction: row;
   text-align: center;
   border-radius: 11px;
-  width: 245px;
-  height: 41px;
+  width: 268px;
+  height: 61px;
+  font-size: 1.2rem;
+  color: blanchedalmond;
   background-color: rgb(91, 8, 8);
   border-color: rgb(104, 66, 66);
-  margin-left: -263px;
-  margin-top: 31px;
+  margin-top: 24px;
 }
 
 /* franquicias */
-.quote {
-  display: block;
-  background-color: #000000;
+.franquicias {
+  display: flex;
+  flex-direction: column;
+}
+.franquicias .quote {
+  width: 69rem;
   border-top: 1px solid #666;
   border-bottom: 1px solid #666;
 }
-.quote .uvps {
-  font-family: "raleway";
+.franquicias .quote .uvps {
+  color: aliceblue;
+  font-size: 1.5rem;
   text-align: center;
 }
-
-.nc {
+.franquicias .nc {
   text-align: center;
   color: aliceblue;
   font-size: 3rem;
-  font-family: "Raleway";
-  margin-top: 51px;
 }
-
-.cuadro_2 {
+.franquicias .cuadro_2 {
   display: flex;
   justify-content: center;
   flex-direction: row;
 }
-
-.text-franq {
-  margin-left: 39px;
-  margin-top: 140px;
-  padding-right: 31px;
+.franquicias .text-franq {
+  color: aliceblue;
+  font-size: 1.3rem;
+  margin-left: 16px;
+  margin-top: 59px;
+  padding-right: 22px;
 }
-
-.franquicias1 {
-  margin-right: 50px;
-  margin-top: 69px;
+.franquicias .franquicias1 {
+  margin-right: 20px;
 }
-
-.dash-line {
+.franquicias .dash-line {
+  width: 100%;
   margin: 50px 0;
   border-top: 1px dashed aliceblue;
 }
-
-.misionvision {
+.franquicias .misionvision {
   display: flex;
   justify-content: center;
   flex-direction: row;
   text-align: center;
-  padding: 0 0 56px;
+  padding: 0 0 30px;
 }
-.misionvision #vision {
+.franquicias .misionvision #vision {
+  margin: 0 30px;
+  color: aliceblue;
+}
+.franquicias .misionvision #mision {
   max-width: 35%;
   margin: 0 30px;
   color: aliceblue;
 }
-.misionvision #mision {
-  max-width: 35%;
-  margin: 0 30px;
-  color: aliceblue;
-}
-.misionvision .textofranq {
+.franquicias .misionvision .textofranq {
   font-size: 40px;
-  font-family: "raleway";
-  padding-bottom: 20px;
 }
-
-.franquicias2 {
-  width: 90%;
+.franquicias .franquicias2 {
   margin-left: 73px;
 }
-
-.h5h5 {
-  font-family: "Raleway";
+.franquicias .h5h5 {
   font-size: 20px;
   color: aliceblue;
   padding: 34px;
   text-align: center;
-  margin: 25px 150px;
   border-top: 1px solid aliceblue;
   border-bottom: 1px solid aliceblue;
 }
-
-.textofranq1 {
+.franquicias .textofranq1 {
   font-size: 40px;
-  font-family: "raleway";
   color: aliceblue;
-  text-decoration: underline;
-  text-align: left;
-  margin: 48px 147px;
 }
-
-.us_team {
-  display: flex;
-  justify-content: space-between;
-  width: 350px;
+.franquicias .us_team {
   color: aliceblue;
-  margin: 0 146px;
-  font-family: "Raleway";
 }
-.us_team .us_team_2 {
-  padding: 0;
-  margin: 0;
+.franquicias .us_team .strong {
+  margin: 29px 82px;
+  padding: 2px 4px;
 }
-.us_team .us_team_2 .strong {
-  font-family: "Raleway";
-  margin: 9px 3px;
-  padding: 0px 12px;
-}
-
-.dash-line-1 {
-  margin: 50px 0;
-  border-top: 1px dashed aliceblue;
-}
-
-.dashline {
-  border: 0;
-  height: 0;
-  border-top: 4px double aliceblue;
-  text-align: center;
-}
-
-.gastronomia {
+.franquicias .gastronomia {
   display: flex;
   justify-content: center;
   flex-direction: row;
   color: aliceblue;
 }
-.gastronomia .img3 {
+.franquicias .gastronomia .img3 {
   width: 600px;
-  margin-left: 100px;
+  margin-left: 61px;
 }
-.gastronomia .us_team_3 {
-  margin-left: 49px;
-  font-family: "Raleway";
+.franquicias .gastronomia .us_team_3 {
+  margin-left: 39px;
   font-size: 30px;
-  padding: 8px;
 }
-.gastronomia .textofranq3 {
-  margin-left: 56px;
-  font-family: "Raleway";
-  font-size: 20px;
-  padding-right: 67px;
+.franquicias .gastronomia .textofranq3 {
+  margin-left: 39px;
+  padding-right: 55px;
+  font-size: 1.5rem;
 }
-
-.section {
-  background-color: #000000;
-  padding: 10px;
-}
-.section .Nusu {
+.franquicias .Nusu {
   text-align: center;
   color: aliceblue;
   font-size: 3rem;
-  font-family: "Raleway";
 }
-.section .maps {
+.franquicias .maps {
   display: flex;
-  align-items: center;
-  margin-bottom: 46px;
-  margin-left: 190px;
-  flex-wrap: wrap;
 }
-.section .maps .sucursales {
+.franquicias .maps .sucursales {
   padding: 34px;
 }
-.section .maps .sucursales h4 {
-  font-family: "Raleway";
-  font-size: 25px;
-}
-.section .maps .sucursales .lugares {
+.franquicias .maps .sucursales .lugares {
   color: aliceblue;
   text-align: center;
 }
-
-.horarios {
-  font-size: 1.5rem;
-  margin-bottom: 25px;
-  margin-left: 381px;
+.franquicias .horarios {
+  font-size: 3rem;
+  color: aliceblue;
 }
 
 /*Sushigift - Bootstrap*/
-.gridcontainerboot {
-  min-height: 100vh;
-  display: grid;
-  grid-template-areas: "header" "main" "footer";
-  background-color: #000000;
-}
-
-.h2-boot {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-top: 19px;
-}
-.h2-boot .ul-boot-header {
-  padding: 40px;
-  font-size: 1rem;
-}
-.h2-boot .h3-boot-img {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-content: center;
-  flex-wrap: wrap;
-  height: 140px;
-}
-
-.container-fluid {
-  background-color: #000000;
-}
-.container-fluid .p-4 {
-  width: 100%;
+.p-4 {
   margin: auto;
-  font-size: 2.3rem;
+  font-size: 2rem;
   color: #c82953;
   text-align: center;
-  font-family: "raleway";
-  border-top: 1px solid #666;
-  border-bottom: 1px solid #666;
 }
-.container-fluid .p-4 .imgboot {
-  max-width: 100%;
-}
-.container-fluid .p-2 {
+
+.p-2 {
   font-size: 3.5rem;
   text-align: center;
   color: #c82953;
-  font-family: "Raleway";
   font-weight: 700;
 }
-.container-fluid .form-select {
+
+.input-group {
   font-size: 1rem;
-  font-family: "raleway";
-  margin: 57px 0 57px 0;
-}
-.container-fluid .input-group {
-  font-size: 1rem;
-  font-family: "raleway";
   margin-top: 57px;
 }
-.container-fluid .p-4-1 {
-  width: 100%;
-  margin-bottom: 57px;
-  margin-top: 57px;
-  font-size: 2.3rem;
+
+.p-4-1 {
+  color: aliceblue;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  font-size: 2rem;
   text-align: center;
-  font-family: "raleway";
   border-top: 1px solid #666;
   border-bottom: 1px solid #666;
 }
-.container-fluid .btn {
-  margin-left: 600px;
+
+.btn {
   margin-top: 50px;
-  font-family: "Raleway";
-  font-weight: 500;
-  align-items: center;
 }
 
 /* Contacto */
-.contact-section {
-  background-color: #000000;
+.contact {
+  flex-direction: column;
 }
-.contact-section .contact-div {
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
-  width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
-  padding-left: calc(var(--bs-gutter-x) * 0.5);
-  margin-right: auto;
-  margin-left: auto;
-}
-.contact-section .contact-div .titulo {
-  text-align: center;
+.contact .titulo {
   font-size: 3.2rem;
   color: #c8d1d8;
-  font-weight: 700;
-  background-color: #000000;
-  font-family: "Raleway";
-  padding-top: 78px;
 }
-.contact-section .hhh {
+.contact .contact_funcion {
   display: flex;
-  flex-wrap: wrap;
-  justify-items: center;
-  align-items: center;
-  margin-top: 52px;
-  margin-left: 90px;
-  margin-right: 151px;
-  max-width: 100%;
 }
-.contact-section .hhh .nobu-mat {
-  margin-top: 1rem;
-  display: flex;
-  flex-wrap: wrap;
-}
-.contact-section .hhh .nobuimg {
-  width: 600px;
-  vertical-align: middle;
-  margin-left: 50px;
-  margin-bottom: 50px;
-}
-.contact-section .formulario1 {
-  max-width: 100%;
+.contact .contact_funcion .formulario1 {
   margin: 40px;
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
-  display: flex;
-  flex-wrap: wrap;
 }
-.contact-section .formulario1 .form-form2 {
-  margin: auto;
-  margin-bottom: 50px;
-}
-.contact-section .formulario1 .form-form2 .botones-contact {
+.contact .contact_funcion .formulario1 .botones-contact {
   margin-bottom: 2rem;
 }
-.contact-section .formulario1 .form-form2 .botones-contact .nombre-contact {
+.contact .contact_funcion .formulario1 .botones-contact .nombre-contact {
   margin-bottom: 0.5rem;
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: aliceblue;
   display: inline-block;
-  font-family: "Raleway";
 }
-.contact-section .formulario1 .form-form2 .botones-contact .nombreinput {
-  display: block;
+.contact .contact_funcion .formulario1 .botones-contact .nombreinput {
   width: 100%;
   padding: 10px;
-  padding-right: 17.75rem;
   font-size: 1.3rem;
-  color: #0c0808;
-  background-color: white;
-  background-clip: padding-box;
   border: 1px solid #ced4da;
-  appearance: none;
   border-radius: 0.375rem;
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-.contact-section .formulario1 .form-form2 .botones-contact .consultaselec {
-  display: block;
+.contact .contact_funcion .formulario1 .botones-contact .consultaselec {
   width: 100%;
-  padding: 0 2rem;
-  -moz-padding-start: calc(0.75rem - 3px);
-  font-size: 1.5rem;
-  color: #000000;
+  font-size: 2.5rem;
   border-radius: 10px;
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-.contact-section .formulario1 .form-form2 .botones-contact .cajacoment {
-  display: block;
+.contact .contact_funcion .formulario1 .botones-contact .cajacoment {
   width: 100%;
-  padding: 0.375rem 0.75rem;
   font-size: 1.3rem;
-  line-height: 1.5;
-  color: #0c0808;
-  font-weight: 300;
-  background-color: white;
-  background-clip: padding-box;
-  border: 1px solid #ced4da;
-  appearance: none;
+  line-height: 2;
   border-radius: 0.375rem;
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-.contact-section .formulario1 .form-form2 .termycond {
-  display: block;
-  min-height: 1.5rem;
-  padding-left: 1.5rem;
+.contact .contact_funcion .formulario1 .termycond {
   color: aliceblue;
-  font-size: small;
   border: 1px solid rgba(0, 0, 0, 0.25);
-  font-family: "Raleway";
 }
-.contact-section .formulario1 .form-form2 .termycond .checklabel {
-  font-family: "raleway";
-}
-.contact-section .formulario1 .form-form2 .button {
+.contact .contact_funcion .formulario1 .button {
   text-align: center;
   color: rgba(44, 81, 205, 0.967);
   padding-top: 56px;
 }
-.contact-section .formulario1 .form-form2 .button .button1 {
+.contact .contact_funcion .formulario1 .button .button1 {
   font-family: "Raleway";
   font-size: 1.5rem;
-  padding: 0 2rem;
+  padding: 0 5rem;
   border-radius: 10px;
   color: rgba(236, 236, 239, 0.967);
   background-color: rgb(46, 36, 202);
 }
 
+.dash-line {
+  width: 100%;
+  margin: 50px 0;
+  border-top: 1px dashed aliceblue;
+}
+
 .titulo_1 {
-  text-align: center;
   font-size: 3.2rem;
   color: #c8d1d8;
-  font-weight: 700;
-  background-color: #000000;
-  font-family: "Raleway";
-  padding-top: 78px;
 }
 
 .list-franq {
   font-size: 1.3rem;
   color: aliceblue;
-  font-family: "raleway";
-  margin-left: 142px;
   padding: 21px;
 }
 
 .text-franq-1 {
   font-size: 1.3rem;
   color: aliceblue;
-  font-family: "raleway";
-  margin-left: 116px;
-  padding-bottom: 16px;
-  padding-right: 170px;
-}
-
-.justify-content-center {
-  -webkit-box-pack: center !important;
-  justify-content: center !important;
+  margin-left: 37px;
 }
 
 /*footer*/
@@ -892,6 +701,12 @@ hr{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
+  .nav_of {
+    display: none;
+  }
+  .navbar {
+    justify-content: center;
+  }
   header {
     flex-wrap: wrap;
   }
@@ -948,9 +763,6 @@ hr{
   .listado_footer {
     font-size: 2rem;
     margin: 16px;
-  }
-  .imgsuscribe1 {
-    width: 100%;
   }
 }
 @media (max-width: 250px) {
@@ -1190,9 +1002,14 @@ main {
 
 main > * {
   background-color: black;
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+body {
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
