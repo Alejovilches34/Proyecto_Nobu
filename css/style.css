@@ -96,6 +96,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   margin-top: 68px;
+  margin-bottom: 68px;
 }
 .section-main .seccion4 .enunciadosreserva {
   font-size: 2.6rem;
@@ -651,7 +652,7 @@ a {
   margin-right: -40px;
 }
 .footerrow .items {
-  font-size: 1.05rem;
+  font-size: 1rem;
   margin: 50px;
 }
 .footerrow .items .imgsuscribe1 {
@@ -684,329 +685,272 @@ hr {
   width: 100%;
 }
 
-@media (max-width: 992px) {
-  .gridcontainer {
-    grid-template-areas: "headerr" "main" "footer";
-    justify-content: center;
-    width: 100vw;
-  }
-  .h2-boot {
+/* @media (max-width: 992px){
+     .gridcontainer{
+        grid-template-areas: 
+        "headerr"
+        "main"
+        "footer";
+        justify-content: center;
+        width: 100vw;
+     }
+
+    .h2-boot{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .bannermain{
+       min-height: 60vh;
+       padding-bottom: 3rem;
+    }
+
+    .section-main{
+        display: flex;
+        max-width: 100%;
+    }
+
+    .video{
+        margin-right: 179px;
+       }
+
+    .footerrow{
+        flex-direction:column;
+        flex-wrap: wrap;
+    }
+
+    .h2{
+        flex-direction: column;
+        margin-left: -68px;
+    }
+
+    .h3{
+        flex-direction: column;
+        margin-left: -68px;
+    }
+
+   .hhh{
     flex-wrap: wrap;
-    flex-direction: column;
-  }
-  .bannermain {
-    min-height: 60vh;
-    padding-bottom: 3rem;
-  }
-  .section-main {
-    display: flex;
-    max-width: 100%;
-  }
-  .video {
-    margin-right: 179px;
-  }
-  .footerrow {
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  .h2 {
-    flex-direction: column;
-    margin-left: -68px;
-  }
-  .h3 {
-    flex-direction: column;
-    margin-left: -68px;
-  }
-  .hhh {
-    flex-wrap: wrap;
-  }
-  .text-franq {
+    }
+
+   .text-franq{
     flex-wrap: wrap;
     margin-bottom: 50px;
-  }
-  .footerdiv {
+   }
+
+   .footerdiv{
     align-items: center;
-  }
-  .seccion2 {
+   }
+
+   .seccion2{
     margin-right: 50px;
-  }
-  .inputmsj {
+   }
+
+   .inputmsj{
     margin-left: -215px;
-  }
-  .submit1 {
+   }
+
+   .submit1{
     margin-left: 50px;
-  }
-  .seccion3 {
+   }
+
+   .seccion3{
     flex-wrap: wrap;
     margin-bottom: -259px;
-  }
-  .nombre {
+   }
+
+   .nombre{
     padding-left: 94px;
-  }
-  .submit3 {
+   }
+
+   .submit3{
     flex-wrap: wrap;
-  }
-  .seccion5 {
+   }
+
+   .seccion5{
     flex-wrap: wrap;
     margin-right: 108px;
-  }
-  .imgsushi1 {
-    max-width: 100%;
-    width: 690px;
-    padding-right: 73px;
-  }
-  .seccion4 {
+   }
+
+   .imgsushi1{
+        max-width: 100%;
+        width: 690px;
+        padding-right: 73px;
+     }
+
+   .seccion4{
     flex-wrap: wrap;
     margin-left: 24px;
     margin-top: 77px;
-  }
-  .seccion4-a {
+   }
+
+   .seccion4-a{
     margin-top: -78px;
-  }
-  a {
+   }
+
+   a{
     padding-left: 79px;
-  }
-  .texto-nobu, .section-main .seccion5 .seccion5_5 .texto-nobu-1 {
+   }
+
+   .texto-nobu{
     padding: 96px;
-  }
-  .cuadro_2 {
+   }
+
+   .cuadro_2{
     margin-top: -47px;
     margin-bottom: -332px;
     flex-wrap: wrap;
-  }
-  .enunciadosreserva {
+   }
+
+   .enunciadosreserva{
     margin-right: 80px;
-  }
-  .seccion5_5 {
+   }
+
+   .seccion5_5{
     padding-left: 57px;
-  }
-  .items {
+   }
+
+   .items{
     margin: 47px;
-  }
-  .copy {
+   }
+
+   .copy{
     margin-left: -341px;
-  }
-  .h1foot {
+   }
+
+   .h1foot{
     text-align: center;
-  }
-  .horarios {
+   }
+
+   .horarios{
     margin-left: 106px;
-  }
-  .uvps {
+   }
+
+   .uvps{
     padding-top: 60px;
-  }
-  .dash-line {
+   }
+
+   .dash-line{
     margin-top: 396px;
-  }
-  .franquicias1 {
+}
+
+.franquicias1{
     margin-left: 40px;
-  }
-  .misionvision {
-    margin-right: 14px;
-  }
-  .franquicias2 {
-    margin-left: 80px;
-  }
-  .img3 {
+   }
+
+   .misionvision{
+       margin-right: 14px;
+   }
+
+   .franquicias2{
+     margin-left: 80px;
+   }
+
+   .img3{
     margin-left: 117px;
-  }
-  .gastronomia {
+}
+
+.gastronomia {
     display: flex;
     flex-wrap: wrap;
     color: aliceblue;
-  }
-  .maps {
-    margin-left: 212px;
-  }
-  .Nusu {
-    margin-right: 31px;
-  }
-  .dash-line-1 {
-    margin-top: 54px;
-  }
-  .card-body {
-    height: 170px;
-  }
-  .dash-line {
-    margin-top: 385px;
-  }
-  hr {
-    width: 895px;
-  }
-  .card-title {
-    font-size: small;
-  }
 }
+
+.maps{
+    margin-left: 212px;
+   }
+
+   .Nusu{
+    margin-right: 31px;
+   }
+
+   .dash-line-1{
+    margin-top: 54px;
+}
+
+.card-body{
+    height: 170px;
+}
+
+.dash-line{
+    margin-top: 385px;
+}
+
+hr{
+    width: 895px;
+   }
+
+   .card-title{
+    font-size: small;
+   }
+
+}
+*/
 @media (max-width: 500px) {
   .gridcontainer {
-    grid-template-areas: "he" "main" "footer";
+    grid-template-areas: "headerr" "main" "footer";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
-  .encabezado {
-    display: none;
-  }
-  .h2-boot {
+  header {
     flex-wrap: wrap;
-    flex-direction: column;
-  }
-  .bannermain {
-    min-height: 60vh;
-    padding-bottom: 3rem;
-  }
-  .footerrow {
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-left: 156px;
-  }
-  .h2 {
-    flex-direction: column;
-    margin-left: -68px;
-  }
-  .h3 {
-    flex-direction: column;
-    margin-left: -68px;
-  }
-  .nobuimg {
-    width: min-content;
-  }
-  .hhh {
-    flex-wrap: wrap;
-  }
-  .us_team_3 {
-    margin-top: 50px;
-  }
-  .img3 {
-    margin-left: 98px;
-  }
-  .promo {
-    padding: 328px;
-  }
-  .text-franq {
-    flex-wrap: wrap;
-    margin-bottom: 50px;
-  }
-  .footerdiv {
-    align-items: center;
-  }
-  .seccion2 {
-    margin-right: 50px;
-  }
-  .inputmsj {
-    margin-left: -215px;
-  }
-  .submit1 {
-    margin-left: 50px;
   }
   .seccion3 {
     flex-wrap: wrap;
-    margin-bottom: -259px;
-  }
-  .nombre {
-    padding-left: 141px;
   }
   .video {
-    width: 100vw;
-    margin-right: -147px;
+    width: 134vw;
+  }
+  .nombre {
+    padding-left: 4px;
+    font-size: 4rem;
   }
   .texto-nobu, .section-main .seccion5 .seccion5_5 .texto-nobu-1 {
-    padding: 136px;
-  }
-  .submit3 {
-    flex-wrap: wrap;
+    padding: 3px;
+    font-size: 2rem;
   }
   .seccion4 {
-    margin-left: 128px;
+    justify-content: inherit;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+  }
+  .submit3 {
+    margin: 68px;
   }
   .seccion5 {
     flex-wrap: wrap;
-    margin-right: 102px;
-  }
-  .en {
-    padding: 82px;
   }
   .imgsushi1 {
-    width: 100vw;
-    margin-left: 201px;
+    width: 50px;
   }
-  .seccion4-a {
-    margin-top: -87px;
-    margin-left: 48px;
+  .en {
+    font-size: 4rem;
+    margin-left: -39px;
   }
-  a {
-    margin-left: -24px;
+  .texto-nobu-1 {
+    margin-left: -41px;
+    font-size: 2rem;
   }
-  .enunciadosreserva {
-    padding-top: 129px;
-    padding-left: 86px;
-  }
-  .seccion5_5 {
-    padding-left: 57px;
-  }
-  .ig {
-    padding-right: 500px;
-  }
-  .copy {
-    margin-left: -345px;
-  }
-  .h1foot {
-    text-align: center;
-  }
-  .section {
-    margin-left: -27px;
-  }
-  .sucursales {
-    margin-left: -15px;
-  }
-  .h4 {
-    margin-left: 81px;
-  }
-  .maps {
-    margin-left: 155px;
-  }
-  .Nusu {
-    margin-right: 31px;
-  }
-  .card-img-top {
-    width: 45%;
-  }
-  .card-body {
-    font-size: small;
-    margin: 39px;
-    margin-left: 446px;
-  }
-  .card {
-    width: 75%;
-    align-items: flex-end;
-  }
-  .card-title {
-    width: 71vw;
-  }
-  .dash-line {
-    margin-top: 383px;
-  }
-  .franquicias1 {
-    margin-left: 70px;
-  }
-  .misionvision {
-    margin-right: 14px;
-  }
-  .franquicias2 {
-    margin-right: 77px;
-  }
-  .gastronomia {
-    display: flex;
+  .footerrow {
     flex-wrap: wrap;
-    color: aliceblue;
+    flex-direction: column;
+    align-items: flex-start;
   }
-  .dash-line-1 {
-    margin-top: 54px;
+  .footernew {
+    width: -1px;
   }
-  .horarios {
-    margin-left: 106px;
+  .items {
+    padding-top: 5px;
   }
-  .btn {
-    margin-left: 325px;
+  .lista1 {
+    font-size: 2rem;
+  }
+  .listado_footer {
+    font-size: 2rem;
+    margin: 16px;
+  }
+  .imgsuscribe1 {
+    width: 100%;
   }
 }
 @media (max-width: 250px) {

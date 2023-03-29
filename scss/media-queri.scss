@@ -1,4 +1,4 @@
-@media (max-width: 992px){
+/* @media (max-width: 992px){
      .gridcontainer{
         grid-template-areas: 
         "headerr"
@@ -198,232 +198,94 @@ hr{
    }
 
 }
+*/
 
 @media (max-width: 500px){
     .gridcontainer{
         grid-template-areas: 
-        "he"
+        "headerr"
         "main"
         "footer";
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
      }
-     
-    .encabezado{
-        display: none;
-    }
 
-    .h2-boot{
+     header{
+        flex-wrap: wrap;
+     }
+
+     .seccion3{
+        flex-wrap: wrap;
+     }
+
+     .video{
+        width: 134vw;
+     }
+
+     .nombre{
+        padding-left: 4px;
+        font-size: 4rem;
+     }
+
+     .texto-nobu{
+        padding: 3px;
+        font-size: 2rem;
+     }
+
+     .seccion4{
+        justify-content: inherit;
+        flex-wrap: wrap;
+        padding-bottom: 80px;
+     }
+
+     .submit3{
+        margin: 68px;
+     }
+
+     .seccion5{
+        flex-wrap: wrap;
+     }
+
+     .imgsushi1{
+        width: 50px;
+     }
+
+     .en{
+        font-size: 4rem;
+        margin-left: -39px;
+     }
+
+     .texto-nobu-1{
+        margin-left: -41px;
+        font-size: 2rem;
+     }
+
+     .footerrow{
         flex-wrap: wrap;
         flex-direction: column;
-    }
+        align-items: flex-start;
+     }
 
-    .bannermain{
-        min-height: 60vh;
-       padding-bottom: 3rem;
-    }
+     .footernew{
+        width: -1px;
+     }
 
-    .footerrow{
-        flex-direction:column;
-        flex-wrap: wrap;
-        margin-left: 156px;
-    }
+     .items{
+        padding-top: 5px;
+     }
 
-    .h2{
-        flex-direction: column;
-        margin-left: -68px;
-    }
+     .lista1{
+        font-size: 2rem;
+     }
 
-    .h3{
-        flex-direction: column;
-        margin-left: -68px;
-    }
+     .listado_footer{
+        font-size: 2rem;
+        margin: 16px;
+     }
 
-    .nobuimg{
-        width: min-content;
-    }
-
-   .hhh{
-    flex-wrap: wrap;
-    }
-
-    .us_team_3{
-        margin-top: 50px;
-    }
-
-    .img3{
-        margin-left: 98px;
-    }
-
-    .promo{
-        padding: 328px;
-    }
-
-   .text-franq{
-    flex-wrap: wrap;
-    margin-bottom: 50px;
-   }
-
-   .footerdiv{
-    align-items: center;
-   }
-
-   .seccion2{
-    margin-right: 50px;
-   }
-
-   .inputmsj{
-    margin-left: -215px;
-   }
-
-   .submit1{
-    margin-left: 50px;
-   }
-
-.seccion3{
- flex-wrap: wrap;
- margin-bottom: -259px;
-}   
-
-.nombre{
-    padding-left: 141px;
-   }
-
-.video{
- width: 100vw;
- margin-right: -147px;
-}
-
-.texto-nobu{
-  padding: 136px;
-}
-
-.submit3{
-    flex-wrap: wrap;
-   }
-
-.seccion4{
-    margin-left: 128px;
-   }
-
-.seccion5{
-    flex-wrap: wrap;
-    margin-right: 102px;
-   }
-
-.en{
- padding: 82px;
-}
-
-.imgsushi1{
- width: 100vw;
- margin-left: 201px;
- }
-
-
-   .seccion4-a{
-    margin-top: -87px;
-    margin-left: 48px;
-   }
-
-a{
- margin-left: -24px;
-}
-
-
-
-   .enunciadosreserva{
-    padding-top: 129px;
-    padding-left: 86px;
-   }
-
-   .seccion5_5{
-    padding-left: 57px;
-   }
-
-   .ig{
-    padding-right: 500px;
-   }
-
-   .copy{
-    margin-left: -345px;
-   }
-
-   .h1foot{
-    text-align: center;
-   }
-
-   .section{
-    margin-left: -27px;
-   } 
-
-   .sucursales{
-    margin-left: -15px;
-   }
-
-   .h4{
-    margin-left: 81px;
-   }
-
-   .maps{
-    margin-left: 155px;
-   }
-
-   .Nusu{
-    margin-right: 31px;
-   }
-
-   .card-img-top{
-        width: 45%;
-   }
-
-   .card-body{
-    font-size: small;
-    margin: 39px;
-    margin-left: 446px;
-   }
-   .card{
-    width: 75%;
-    align-items: flex-end;
-}
-
-.card-title{
-    width: 71vw;
-}
-
-   .dash-line{
-        margin-top: 383px;
-   }
-
-   .franquicias1{
-    margin-left: 70px;
-   }
-
-   .misionvision{
-       margin-right: 14px;
-   }
-
-   .franquicias2{
-     margin-right: 77px;
-   }
-
-   .gastronomia {
-    display: flex;
-    flex-wrap: wrap;
-    color: aliceblue;
-}
-
-   .dash-line-1{
-    margin-top: 54px;
-}
-
-   .horarios{
-    margin-left: 106px;
-   }
-
-   .btn{
-     margin-left: 325px;
-   }
+     .imgsuscribe1{
+        width: 100%;
+     }
 }
 
 @media (max-width: 250px){
