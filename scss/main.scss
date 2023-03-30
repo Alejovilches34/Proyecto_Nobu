@@ -36,7 +36,7 @@
         margin-left: 42px;
 
         .video{
-        padding-top: 60px;
+            padding-top: 60px;
         }
 
         .seccion3_1{
@@ -137,14 +137,10 @@
 .pedidos{
     background-image: url(../images/fondo_pedidos-transformed.jpeg);
     width: 100%;
-    height: 98vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
  
-    .seccion2{
-        padding: 86px;
-
         .enunciadosreserva1{
             font-size: 3rem;
             color: aliceblue;
@@ -175,13 +171,11 @@
             border-color: rgb(104, 66, 66);
             margin-top: 24px;
         }
-    }
 }  
 
 /* franquicias */
 
 .franquicias{
-    display: flex;
     flex-direction: column;
 
     .quote{
@@ -215,6 +209,7 @@
     }
     
     .franquicias1{
+        width: 100%;
         margin-right: 20px;
     }
     

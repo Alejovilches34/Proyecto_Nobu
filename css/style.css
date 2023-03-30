@@ -163,21 +163,17 @@ a:hover {
 .pedidos {
   background-image: url(../images/fondo_pedidos-transformed.jpeg);
   width: 100%;
-  height: 98vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-.pedidos .seccion2 {
-  padding: 86px;
-}
-.pedidos .seccion2 .enunciadosreserva1 {
+.pedidos .enunciadosreserva1 {
   font-size: 3rem;
   color: aliceblue;
   margin-right: 708px;
   font-family: "Raleway";
 }
-.pedidos .seccion2 .submit1 {
+.pedidos .submit1 {
   text-align: center;
   border-radius: 11px;
   width: 268px;
@@ -187,7 +183,7 @@ a:hover {
   background-color: rgb(31, 172, 55);
   border-color: rgb(31, 172, 55);
 }
-.pedidos .seccion2 .submit2 {
+.pedidos .submit2 {
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -204,7 +200,6 @@ a:hover {
 
 /* franquicias */
 .franquicias {
-  display: flex;
   flex-direction: column;
 }
 .franquicias .quote {
@@ -235,6 +230,7 @@ a:hover {
   padding-right: 22px;
 }
 .franquicias .franquicias1 {
+  width: 100%;
   margin-right: 20px;
 }
 .franquicias .dash-line {
@@ -485,7 +481,6 @@ a {
   color: aliceblue;
   font-size: 1rem;
   background-color: rgb(26, 16, 18);
-  width: 100%;
 }
 
 @media (max-width: 758px) {
@@ -507,7 +502,7 @@ a {
     flex-wrap: wrap;
   }
   .video {
-    width: auto;
+    width: 100%;
   }
   .nombre {
     padding-left: 4px;
@@ -538,6 +533,9 @@ a {
   .texto-nobu-1 {
     margin-left: -41px;
     font-size: 2rem;
+  }
+  .seccion2 {
+    margin-top: 48px;
   }
   .footerrow {
     flex-wrap: wrap;
@@ -577,7 +575,7 @@ a {
     flex-wrap: wrap;
   }
   .video {
-    width: auto;
+    width: 100%;
   }
   .nombre {
     padding-left: 4px;
@@ -626,6 +624,9 @@ a {
   .listado_footer {
     font-size: 2rem;
     margin: 16px;
+  }
+  .copy {
+    font-size: 0.7rem;
   }
 }
 @media (max-width: 290px) {
@@ -675,6 +676,10 @@ a {
     font-size: 4rem;
     margin-left: -39px;
   }
+  .seccion2 {
+    margin-top: 168px;
+    margin-left: 32px;
+  }
   .texto-nobu-1 {
     margin-left: -41px;
     font-size: 2rem;
@@ -696,6 +701,9 @@ a {
   .listado_footer {
     font-size: 2rem;
     margin: 16px;
+  }
+  .copy {
+    font-size: 0.7rem;
   }
 }
 /* Variables Universales */
