@@ -162,6 +162,8 @@ a:hover {
 /* pedidos */
 .pedidos {
   background-image: url(../images/fondo_pedidos-transformed.jpeg);
+  width: 100%;
+  height: 98vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -641,9 +643,6 @@ a {
   header {
     flex-wrap: wrap;
   }
-  .promo {
-    padding: 10rem;
-  }
   .seccion3 {
     flex-wrap: wrap;
   }
@@ -703,13 +702,11 @@ a {
 main {
   display: grid;
   font-family: "raleway";
-  height: 100vh;
   grid-template-areas: "headerr" "contenido" "footer";
 }
 
 main > * {
   background-color: black;
-  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
