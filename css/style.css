@@ -363,6 +363,11 @@ a:hover {
 .contact .contact_funcion {
   display: flex;
 }
+.contact .contact_funcion .imgnobu {
+  width: 100%;
+  margin-top: 4rem;
+  object-fit: cover;
+}
 .contact .contact_funcion .formulario1 {
   margin: 40px;
 }
@@ -537,6 +542,13 @@ a {
   .seccion2 {
     margin-top: 48px;
   }
+  .contact_funcion {
+    flex-wrap: wrap;
+  }
+  .imgnobu {
+    width: 100%;
+    object-fit: cover;
+  }
   .footerrow {
     flex-wrap: wrap;
     flex-direction: column;
@@ -606,6 +618,13 @@ a {
   .texto-nobu-1 {
     margin-left: -41px;
     font-size: 2rem;
+  }
+  .contact_funcion {
+    flex-wrap: wrap;
+  }
+  .imgnobu {
+    width: 100%;
+    object-fit: cover;
   }
   .footerrow {
     flex-wrap: wrap;
@@ -679,6 +698,13 @@ a {
   .seccion2 {
     margin-top: 168px;
     margin-left: 32px;
+  }
+  .contact_funcion {
+    flex-wrap: wrap;
+  }
+  .imgnobu {
+    width: 100%;
+    object-fit: cover;
   }
   .texto-nobu-1 {
     margin-left: -41px;

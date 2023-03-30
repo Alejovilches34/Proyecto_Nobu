@@ -361,6 +361,12 @@
     .contact_funcion {
         display: flex;
 
+      .imgnobu{
+        width: 100%;
+        margin-top: 4rem;
+        object-fit: cover;
+      }
+
         .formulario1{
             margin: 40px;
      
@@ -415,7 +421,7 @@
                          background-color: rgb(46, 36, 202, 1);
                      }
                  }
-         }
+         }  
     }
 
 
