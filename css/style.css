@@ -51,7 +51,6 @@ a:hover {
 /*main*/
 /* index */
 .section-main {
-  display: flex;
   flex-direction: column;
 }
 .section-main .bannermain {
@@ -67,7 +66,7 @@ a:hover {
   background-attachment: fixed;
 }
 .section-main .bannermain .promo {
-  padding-left: 15rem;
+  text-align: center;
   font-family: "raleway";
   color: #e45eaf;
   font-size: 2rem;
@@ -84,7 +83,7 @@ a:hover {
   padding-top: 60px;
 }
 .section-main .seccion3 .seccion3_1 {
-  margin-top: 36px;
+  margin-top: 17px;
 }
 .section-main .seccion3 .nombre {
   text-decoration: underline;
@@ -480,13 +479,6 @@ a {
   height: 24px;
 }
 
-hr {
-  height: 1px;
-  size: 1.25rem;
-  color: aliceblue;
-  margin-top: -4px;
-}
-
 .copy {
   color: aliceblue;
   font-size: 1rem;
@@ -494,218 +486,17 @@ hr {
   width: 100%;
 }
 
-/* @media (max-width: 992px){
-     .gridcontainer{
-        grid-template-areas: 
-        "headerr"
-        "main"
-        "footer";
-        justify-content: center;
-        width: 100vw;
-     }
-
-    .h2-boot{
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-
-    .bannermain{
-       min-height: 60vh;
-       padding-bottom: 3rem;
-    }
-
-    .section-main{
-        display: flex;
-        max-width: 100%;
-    }
-
-    .video{
-        margin-right: 179px;
-       }
-
-    .footerrow{
-        flex-direction:column;
-        flex-wrap: wrap;
-    }
-
-    .h2{
-        flex-direction: column;
-        margin-left: -68px;
-    }
-
-    .h3{
-        flex-direction: column;
-        margin-left: -68px;
-    }
-
-   .hhh{
-    flex-wrap: wrap;
-    }
-
-   .text-franq{
-    flex-wrap: wrap;
-    margin-bottom: 50px;
-   }
-
-   .footerdiv{
-    align-items: center;
-   }
-
-   .seccion2{
-    margin-right: 50px;
-   }
-
-   .inputmsj{
-    margin-left: -215px;
-   }
-
-   .submit1{
-    margin-left: 50px;
-   }
-
-   .seccion3{
-    flex-wrap: wrap;
-    margin-bottom: -259px;
-   }
-
-   .nombre{
-    padding-left: 94px;
-   }
-
-   .submit3{
-    flex-wrap: wrap;
-   }
-
-   .seccion5{
-    flex-wrap: wrap;
-    margin-right: 108px;
-   }
-
-   .imgsushi1{
-        max-width: 100%;
-        width: 690px;
-        padding-right: 73px;
-     }
-
-   .seccion4{
-    flex-wrap: wrap;
-    margin-left: 24px;
-    margin-top: 77px;
-   }
-
-   .seccion4-a{
-    margin-top: -78px;
-   }
-
-   a{
-    padding-left: 79px;
-   }
-
-   .texto-nobu{
-    padding: 96px;
-   }
-
-   .cuadro_2{
-    margin-top: -47px;
-    margin-bottom: -332px;
-    flex-wrap: wrap;
-   }
-
-   .enunciadosreserva{
-    margin-right: 80px;
-   }
-
-   .seccion5_5{
-    padding-left: 57px;
-   }
-
-   .items{
-    margin: 47px;
-   }
-
-   .copy{
-    margin-left: -341px;
-   }
-
-   .h1foot{
-    text-align: center;
-   }
-
-   .horarios{
-    margin-left: 106px;
-   }
-
-   .uvps{
-    padding-top: 60px;
-   }
-
-   .dash-line{
-    margin-top: 396px;
-}
-
-.franquicias1{
-    margin-left: 40px;
-   }
-
-   .misionvision{
-       margin-right: 14px;
-   }
-
-   .franquicias2{
-     margin-left: 80px;
-   }
-
-   .img3{
-    margin-left: 117px;
-}
-
-.gastronomia {
-    display: flex;
-    flex-wrap: wrap;
-    color: aliceblue;
-}
-
-.maps{
-    margin-left: 212px;
-   }
-
-   .Nusu{
-    margin-right: 31px;
-   }
-
-   .dash-line-1{
-    margin-top: 54px;
-}
-
-.card-body{
-    height: 170px;
-}
-
-.dash-line{
-    margin-top: 385px;
-}
-
-hr{
-    width: 895px;
-   }
-
-   .card-title{
-    font-size: small;
-   }
-
-}
-*/
-@media (max-width: 500px) {
+@media (max-width: 758px) {
   .gridcontainer {
     grid-template-areas: "headerr" "main" "footer";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
+  .navbar {
+    display: block;
+  }
   .nav_of {
     display: none;
-  }
-  .navbar {
-    justify-content: center;
   }
   header {
     flex-wrap: wrap;
@@ -714,7 +505,7 @@ hr{
     flex-wrap: wrap;
   }
   .video {
-    width: 134vw;
+    width: auto;
   }
   .nombre {
     padding-left: 4px;
@@ -765,231 +556,147 @@ hr{
     margin: 16px;
   }
 }
-@media (max-width: 250px) {
+@media (max-width: 500px) {
   .gridcontainer {
-    grid-template-areas: "he" "main" "footer";
-    width: 100vw;
+    grid-template-areas: "headerr" "main" "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
   }
-  .container {
-    margin: 50px;
+  .nav_of {
+    display: none;
   }
-  .headerenc {
-    width: 100%;
+  .navbar {
+    display: block;
   }
-  .encabezado {
+  header {
     flex-wrap: wrap;
-    flex-direction: column;
-    margin-left: 167px;
-  }
-  .bannermain {
-    width: 100vw;
-  }
-  .promo {
-    margin-left: 52px;
-  }
-  .h2-boot {
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-  .h3-boot-img {
-    flex-direction: column;
-    margin-left: 285px;
-  }
-  .footerrow {
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-left: 303px;
-    margin: 38px;
-  }
-  .items {
-    padding-left: 286px;
-  }
-  .titulo {
-    padding: 5px;
-  }
-  .formulario1 {
-    width: 267px;
-    padding: 282px;
-    padding-top: 6px;
-  }
-  .footernew {
-    margin-left: 48px;
-  }
-  .imgsuscribe1 {
-    margin-left: -175px;
-  }
-  .imgsuscribe2 {
-    margin-left: -205px;
-  }
-  .h2 {
-    flex-direction: column;
-    margin-left: -68px;
-  }
-  .h3 {
-    flex-direction: column;
-    margin-left: -68px;
-  }
-  .nobuimg {
-    width: min-content;
-  }
-  .hhh {
-    margin-bottom: -686px;
-  }
-  .us_team_3 {
-    margin-top: 50px;
-  }
-  .img3 {
-    margin-left: 98px;
-  }
-  .text-franq {
-    flex-wrap: wrap;
-    margin-bottom: 50px;
-  }
-  .footerdiv {
-    align-items: center;
-  }
-  .seccion2 {
-    margin-right: 50px;
-  }
-  .inputmsj {
-    margin-left: -215px;
-  }
-  .submit1 {
-    margin-left: 50px;
   }
   .seccion3 {
     flex-wrap: wrap;
-    width: 100%;
-  }
-  .nombre {
-    padding-left: 22rem;
-  }
-  .texto-nobu, .section-main .seccion5 .seccion5_5 .texto-nobu-1 {
-    padding-left: 22rem;
   }
   .video {
-    margin-right: -250px;
+    width: auto;
+  }
+  .nombre {
+    padding-left: 4px;
+    font-size: 4rem;
+  }
+  .texto-nobu, .section-main .seccion5 .seccion5_5 .texto-nobu-1 {
+    padding: 3px;
+    font-size: 2rem;
+  }
+  .seccion4 {
+    justify-content: inherit;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
   }
   .submit3 {
-    flex-wrap: wrap;
+    margin: 68px;
   }
   .seccion5 {
     flex-wrap: wrap;
-    margin-right: 102px;
-  }
-  .en {
-    padding-left: 161px;
-  }
-  .texto-nobu-1 {
-    margin-left: -232px;
-    margin-top: -78px;
   }
   .imgsushi1 {
-    width: 597px;
-    margin-left: 380px;
+    width: 50px;
+  }
+  .en {
+    font-size: 4rem;
+    margin-left: -39px;
+  }
+  .texto-nobu-1 {
+    margin-left: -41px;
+    font-size: 2rem;
+  }
+  .footerrow {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footernew {
+    width: -1px;
+  }
+  .items {
+    padding-top: 5px;
+  }
+  .lista1 {
+    font-size: 2rem;
+  }
+  .listado_footer {
+    font-size: 2rem;
+    margin: 16px;
+  }
+}
+@media (max-width: 290px) {
+  .gridcontainer {
+    grid-template-areas: "hederr" "main" "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .nav_of {
+    display: none;
+  }
+  .navbar {
+    justify-content: center;
+  }
+  header {
+    flex-wrap: wrap;
+  }
+  .promo {
+    padding: 10rem;
+  }
+  .seccion3 {
+    flex-wrap: wrap;
+  }
+  .video {
+    width: auto;
+  }
+  .nombre {
+    padding-left: 4px;
+    font-size: 4rem;
+  }
+  .texto-nobu, .section-main .seccion5 .seccion5_5 .texto-nobu-1 {
+    padding: 3px;
+    font-size: 2rem;
   }
   .seccion4 {
+    justify-content: inherit;
     flex-wrap: wrap;
-  }
-  .enunciadosreserva {
-    padding-top: 74px;
-    padding-left: 344px;
-  }
-  .seccion4-a {
-    margin-top: -87px;
-    margin-left: 48px;
+    padding-bottom: 80px;
   }
   .submit3 {
-    margin-left: 5px;
+    margin: 68px;
   }
-  a {
-    padding-left: 6px;
-  }
-  .seccion5_5 {
-    padding-left: 57px;
-  }
-  .ig {
-    padding-right: 500px;
-  }
-  .copy {
-    margin-left: -133px;
-  }
-  .h1foot {
-    text-align: center;
-  }
-  .section {
-    margin-left: 68px;
-  }
-  .maps {
-    margin-left: 155px;
-  }
-  .Nusu {
-    margin-right: 31px;
-  }
-  .card-img-top {
-    width: 45%;
-  }
-  .card-body {
-    font-size: small;
-    margin: 39px;
-    margin-left: 446px;
-  }
-  .dash-line {
-    margin-top: 383px;
-  }
-  .franquicias1 {
-    margin-left: 70px;
-  }
-  .misionvision {
-    margin-right: 14px;
-  }
-  .franquicias2 {
-    margin-right: 77px;
-  }
-  .gastronomia {
-    display: flex;
+  .seccion5 {
     flex-wrap: wrap;
-    color: aliceblue;
   }
-  .horarios {
-    margin-left: 106px;
+  .imgsushi1 {
+    width: 50px;
   }
-  .card-title {
-    width: 71vw;
+  .en {
+    font-size: 4rem;
+    margin-left: -39px;
   }
-  .dashline {
-    margin-top: 166px;
+  .texto-nobu-1 {
+    margin-left: -41px;
+    font-size: 2rem;
   }
-  .col {
-    align-items: center;
+  .footerrow {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
   }
-  .enunciados-menu {
-    padding-left: 467px;
+  .footernew {
+    width: -1px;
   }
-  .card {
-    width: 75%;
-    align-items: flex-end;
+  .items {
+    padding-top: 5px;
   }
-  .button {
-    margin-left: -69px;
+  .lista1 {
+    font-size: 2rem;
   }
-  .titulo_1 {
-    font-size: 1rem;
-    margin-left: 92px;
-  }
-  .list-franq {
-    font-size: 1.2rem;
-    margin-left: 432px;
-    padding: 8px;
-    width: 358px;
-  }
-  .text-franq-1 {
-    margin-left: 416px;
-    padding: 6px;
-    width: 258px;
-  }
-  strong {
-    margin-left: 50px;
+  .listado_footer {
+    font-size: 2rem;
+    margin: 16px;
   }
 }
 /* Variables Universales */

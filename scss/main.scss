@@ -8,7 +8,6 @@
 
 /* index */
 .section-main{
-        display: flex;
         flex-direction: column;
 
         .bannermain{
@@ -22,7 +21,7 @@
             background-attachment: fixed;
 
             .promo{
-            padding-left: 15rem;
+            text-align: center;
             font-family: $font-family;
             color: #e45eaf;
             font-size: 2rem;
@@ -41,7 +40,7 @@
         }
 
         .seccion3_1{
-            margin-top: 36px;
+            margin-top: 17px;
         }
 
         .nombre{
