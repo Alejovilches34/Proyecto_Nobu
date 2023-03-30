@@ -20,6 +20,11 @@
         flex-wrap: wrap;
      }
 
+     .bannermain{
+        width: 100%;
+        object-fit: cover;
+     }
+
      .seccion3{
         flex-wrap: wrap;
      }
@@ -53,7 +58,7 @@
      }
 
      .imgsushi1{
-        width: 50px;
+        width: 300px;
      }
 
      .en{
@@ -83,6 +88,35 @@
         width: 100%;
         object-fit: cover;
      }
+
+     .quote{
+        margin-top: 9rem;
+     }
+
+     .cuadro_2{
+        flex-wrap: wrap;
+     }
+
+     .misionvision{
+        flex-wrap: wrap;
+     }
+
+     .gastronomia{
+        flex-wrap: wrap;
+     }
+
+     .img3{
+        width: 600px;
+        margin-left: 61px;
+    }
+
+    .maps{
+        flex-wrap: wrap;
+    }
+
+    .p-4{
+        margin-top: 58px;
+    }
 
      .footerrow{
         flex-wrap: wrap;
@@ -185,6 +219,10 @@
         object-fit: cover;
      }
 
+     .quote{
+        margin-top: 9rem;
+     }
+
       .footerrow{
         flex-wrap: wrap;
         flex-direction: column;
@@ -240,7 +278,7 @@
      }
 
      .video{
-        width: auto;
+        width: 100%;
      }
 
      .nombre{
@@ -293,6 +331,10 @@
      .texto-nobu-1{
         margin-left: -41px;
         font-size: 2rem;
+     }
+
+     .quote{
+        margin-top: 9rem;
      }
 
      .footerrow{

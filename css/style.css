@@ -258,7 +258,7 @@ a:hover {
   font-size: 40px;
 }
 .franquicias .franquicias2 {
-  margin-left: 73px;
+  width: 100%;
 }
 .franquicias .h5h5 {
   font-size: 20px;
@@ -288,6 +288,7 @@ a:hover {
 .franquicias .gastronomia .img3 {
   width: 600px;
   margin-left: 61px;
+  margin-bottom: 34px;
 }
 .franquicias .gastronomia .us_team_3 {
   margin-left: 39px;
@@ -364,7 +365,6 @@ a:hover {
   display: flex;
 }
 .contact .contact_funcion .imgnobu {
-  width: 100%;
   margin-top: 4rem;
   object-fit: cover;
 }
@@ -503,6 +503,10 @@ a {
   header {
     flex-wrap: wrap;
   }
+  .bannermain {
+    width: 100%;
+    object-fit: cover;
+  }
   .seccion3 {
     flex-wrap: wrap;
   }
@@ -529,7 +533,7 @@ a {
     flex-wrap: wrap;
   }
   .imgsushi1 {
-    width: 50px;
+    width: 300px;
   }
   .en {
     font-size: 4rem;
@@ -552,6 +556,28 @@ a {
   .imgnobu {
     width: 100%;
     object-fit: cover;
+  }
+  .quote {
+    margin-top: 9rem;
+  }
+  .cuadro_2 {
+    flex-wrap: wrap;
+  }
+  .misionvision {
+    flex-wrap: wrap;
+  }
+  .gastronomia {
+    flex-wrap: wrap;
+  }
+  .img3 {
+    width: 600px;
+    margin-left: 61px;
+  }
+  .maps {
+    flex-wrap: wrap;
+  }
+  .p-4 {
+    margin-top: 58px;
   }
   .footerrow {
     flex-wrap: wrap;
@@ -630,6 +656,9 @@ a {
     width: 100%;
     object-fit: cover;
   }
+  .quote {
+    margin-top: 9rem;
+  }
   .footerrow {
     flex-wrap: wrap;
     flex-direction: column;
@@ -671,7 +700,7 @@ a {
     flex-wrap: wrap;
   }
   .video {
-    width: auto;
+    width: 100%;
   }
   .nombre {
     padding-left: 4px;
@@ -713,6 +742,9 @@ a {
   .texto-nobu-1 {
     margin-left: -41px;
     font-size: 2rem;
+  }
+  .quote {
+    margin-top: 9rem;
   }
   .footerrow {
     flex-wrap: wrap;
