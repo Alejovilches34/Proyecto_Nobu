@@ -135,42 +135,44 @@
 /* pedidos */
 
 .pedidos{
-    background-image: url(../images/fondo_pedidos-transformed.jpeg);
+    background-image: url(../images/Pedidos\ 1\ \(2\).jpg);
     width: 100%;
+    height: 80vh;
+    object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+    .pedidos_ori{
+        margin: 60px;
+        margin-top: 170px;
  
         .enunciadosreserva1{
             font-size: 3rem;
             color: aliceblue;
-            margin-right: 708px;
-            font-family: 'Raleway';
         }
 
         .submit1 {
             text-align: center;
+            margin-bottom: 32px;
             border-radius: 11px;
             width: 268px;
             height: 61px;
             font-size: 1.2rem;
-            color: blanchedalmond;
             background-color: rgb(31, 172, 55);
             border-color: rgb(31 172 55);
         }
         
         .submit2{
-            @include flex(row);
             text-align: center;
             border-radius: 11px;
             width: 268px;
             height: 61px;
             font-size: 1.2rem;
-            color: blanchedalmond;
             background-color: rgb(91, 8, 8);
             border-color: rgb(104, 66, 66);
-            margin-top: 24px;
         }
+    }    
 }  
 
 /* franquicias */
@@ -254,6 +256,7 @@
     
     .textofranq1{
         font-size: 40px;
+        margin-top: 38px;
         color: aliceblue;
     }
     
@@ -271,18 +274,19 @@
         color: aliceblue;
     
         .img3{
-            width: 95vw;
+            width: 76vw;
+            margin-left: 25px;
         }
         
         .us_team_3{
+            font-size: 2.3rem;
             margin-left: 39px;
-            font-size: 30px;
         }
         
         .textofranq3{
             margin-left: 39px;
-            padding-right: 55px;
-            font-size: 1.5rem;
+            padding-right: 25px;
+            font-size: 1.2rem;
         }
     }
     
@@ -296,13 +300,13 @@
     display: flex;
     
     .sucursales{
-        padding: 34px;
+        padding: 19px;
     
              .lugares{
                     color: aliceblue;
                     text-align: center;
                 }
-    }
+        }
 }    
    
 .horarios{
