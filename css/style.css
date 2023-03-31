@@ -123,7 +123,7 @@ a:hover {
   flex-direction: row-reverse;
 }
 .section-main .seccion5 .imgsushi1 {
-  width: 750px;
+  width: 100%;
 }
 .section-main .seccion5 .seccion5_5 {
   width: 75%;
@@ -203,7 +203,7 @@ a:hover {
   flex-direction: column;
 }
 .franquicias .quote {
-  width: 69rem;
+  width: 100%;
   border-top: 1px solid #666;
   border-bottom: 1px solid #666;
 }
@@ -245,12 +245,11 @@ a:hover {
   text-align: center;
   padding: 0 0 30px;
 }
-.franquicias .misionvision #vision {
+.franquicias .misionvision .vision {
   margin: 0 30px;
   color: aliceblue;
 }
-.franquicias .misionvision #mision {
-  max-width: 35%;
+.franquicias .misionvision .mision {
   margin: 0 30px;
   color: aliceblue;
 }
@@ -286,9 +285,7 @@ a:hover {
   color: aliceblue;
 }
 .franquicias .gastronomia .img3 {
-  width: 600px;
-  margin-left: 61px;
-  margin-bottom: 34px;
+  width: 95vw;
 }
 .franquicias .gastronomia .us_team_3 {
   margin-left: 39px;
@@ -316,6 +313,7 @@ a:hover {
 }
 .franquicias .horarios {
   font-size: 3rem;
+  text-align: center;
   color: aliceblue;
 }
 
@@ -350,7 +348,7 @@ a:hover {
 }
 
 .btn {
-  margin-top: 50px;
+  margin-top: 26px;
 }
 
 /* Contacto */
@@ -514,7 +512,6 @@ a {
     width: 100%;
   }
   .nombre {
-    padding-left: 4px;
     font-size: 4rem;
   }
   .texto-nobu, .section-main .seccion5 .seccion5_5 .texto-nobu-1 {
@@ -531,9 +528,6 @@ a {
   }
   .seccion5 {
     flex-wrap: wrap;
-  }
-  .imgsushi1 {
-    width: 300px;
   }
   .en {
     font-size: 4rem;
@@ -566,15 +560,18 @@ a {
   .misionvision {
     flex-wrap: wrap;
   }
+  .mision {
+    margin-top: 15px;
+  }
   .gastronomia {
     flex-wrap: wrap;
   }
-  .img3 {
-    width: 600px;
-    margin-left: 61px;
-  }
   .maps {
     flex-wrap: wrap;
+    justify-content: center;
+  }
+  .horarios {
+    font-size: 1rem;
   }
   .p-4 {
     margin-top: 58px;
@@ -620,7 +617,6 @@ a {
     width: 100%;
   }
   .nombre {
-    padding-left: 4px;
     font-size: 4rem;
   }
   .texto-nobu, .section-main .seccion5 .seccion5_5 .texto-nobu-1 {
@@ -634,12 +630,6 @@ a {
   }
   .submit3 {
     margin: 68px;
-  }
-  .seccion5 {
-    flex-wrap: wrap;
-  }
-  .imgsushi1 {
-    width: 50px;
   }
   .en {
     font-size: 4rem;
@@ -703,7 +693,6 @@ a {
     width: 100%;
   }
   .nombre {
-    padding-left: 4px;
     font-size: 4rem;
   }
   .texto-nobu, .section-main .seccion5 .seccion5_5 .texto-nobu-1 {
@@ -717,12 +706,6 @@ a {
   }
   .submit3 {
     margin: 68px;
-  }
-  .seccion5 {
-    flex-wrap: wrap;
-  }
-  .imgsushi1 {
-    width: 50px;
   }
   .en {
     font-size: 4rem;

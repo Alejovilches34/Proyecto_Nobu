@@ -34,7 +34,6 @@
      }
 
      .nombre{
-        padding-left: 4px;
         font-size: 4rem;
      }
 
@@ -55,10 +54,6 @@
 
      .seccion5{
         flex-wrap: wrap;
-     }
-
-     .imgsushi1{
-        width: 300px;
      }
 
      .en{
@@ -101,22 +96,27 @@
         flex-wrap: wrap;
      }
 
+     .mision{
+      margin-top: 15px;
+     }
+
      .gastronomia{
         flex-wrap: wrap;
      }
 
-     .img3{
-        width: 600px;
-        margin-left: 61px;
-    }
-
     .maps{
         flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .horarios{
+      font-size: 1rem;
     }
 
     .p-4{
         margin-top: 58px;
     }
+
 
      .footerrow{
         flex-wrap: wrap;
@@ -173,7 +173,6 @@
      }
 
      .nombre{
-        padding-left: 4px;
         font-size: 4rem;
      }
 
@@ -190,14 +189,6 @@
 
      .submit3{
         margin: 68px;
-     }
-
-     .seccion5{
-        flex-wrap: wrap;
-     }
-
-     .imgsushi1{
-        width: 50px;
      }
 
      .en{
@@ -222,7 +213,7 @@
      .quote{
         margin-top: 9rem;
      }
-
+     
       .footerrow{
         flex-wrap: wrap;
         flex-direction: column;
@@ -282,7 +273,6 @@
      }
 
      .nombre{
-        padding-left: 4px;
         font-size: 4rem;
      }
 
@@ -301,13 +291,6 @@
         margin: 68px;
      }
 
-     .seccion5{
-        flex-wrap: wrap;
-     }
-
-     .imgsushi1{
-        width: 50px;
-     }
 
      .en{
         font-size: 4rem;

@@ -85,7 +85,7 @@
         @include flex(row-reverse);
 
         .imgsushi1{
-            width: 750px;
+         width: 100%;
         }
         
         .seccion5_5{
@@ -179,7 +179,7 @@
     flex-direction: column;
 
     .quote{
-        width: 69rem;
+        width: 100%;
         border-top: 1px solid #666;
         border-bottom: 1px solid #666;
     
@@ -224,13 +224,12 @@
         text-align: center;
         padding: 0 0 30px;
     
-        #vision{
+        .vision{
             margin: 0 30px;
             color: aliceblue;
         }
         
-        #mision{
-            max-width: 35%;
+        .mision{
             margin: 0 30px;
             color: aliceblue;
         }
@@ -272,9 +271,7 @@
         color: aliceblue;
     
         .img3{
-            width: 600px;
-            margin-left: 61px;
-            margin-bottom: 34px;
+            width: 95vw;
         }
         
         .us_team_3{
@@ -310,6 +307,7 @@
    
 .horarios{
     font-size: 3rem;
+    text-align: center;
     color: aliceblue;
  }
 }
@@ -346,7 +344,7 @@
 }
 
 .btn{
-    margin-top: 50px;
+    margin-top: 26px;
 }
 
 /* Contacto */
