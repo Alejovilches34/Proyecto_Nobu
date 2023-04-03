@@ -1,4 +1,4 @@
-# Somos Nobu Sushi! (Hola mundo :tw-1f44b:)
+# Somos Nobu Sushi! :sushi:
 
 - El nombre de Nobu (por el chef Nobuyuki Matsuhisa) es una leyenda en el ámbito de restaurantes de especialidades japonesas con acentos peruanos;
 - Nobu Sushi es una página web que ofrece una amplia variedad de opciones de sushi de alta calidad. En nuestro sitio web, puedes explorar nuestro menú completo, realizar pedidos y hacer reservas para disfrutar de una experiencia gastronómica única.
@@ -49,6 +49,32 @@ Si tienes preguntas o problemas con nuestro sitio web, no dudes en contactarnos 
 
 ### Descripción
 
+Este es el proyecto final del curso de desarrollo web en CoderHouse. Este proyecto demuestra las habilidades aprendidas en dicho curso aplicadas en una pagina web funcional para desktop y para mobile.
+
+### Librerías 
+
+-Bootstrap <br>
+-Animate css
+
+>Importante: el sitio utiliza dependencias linkeadas a través de CDN. Es necesario contar con conexión a internet para levantar el sitio.
+
+### Instalación
+
+Clona este repositorio en tu máquina local usando la siguiente URL:
+
+`<link>` https://github.com/Alejovilches34/Proyecto_Nobu.git
+
+Instalar las dependencias
+
+`npm install`
+
+Iniciar servidor local
+
+`npm run dev`
+
+### Deploy
+
+Puede ver mi sitio levantado haciendo click [aquí](https://github.com/Alejovilches34/Proyecto_Nobu.git/)
 
 ### Autor
 - Alejo Vilches.
