@@ -33,22 +33,12 @@
        .seccion3{
         @include flex (row);
         margin-top: 80px;
-        margin-left: 42px;
+        margin-left: 12px;
 
         .video{
-            position: relative;
-            padding-bottom: 56.25%;
-            height: 0;
-            overflow: hidden;
-        }
-
-        .video iframe, .video object, .video embed {
-            position: absolute;
-            top: 0;
-            left: 0;
             width: 100%;
-            height: 100%;
-          }
+            margin-top: 43px;
+        }
 
         .seccion3_1{
             margin-top: 17px;
@@ -97,7 +87,7 @@
         @include flex(row-reverse);
 
         .imgsushi1{
-         width: 100%;
+         width: 90%;
         }
         
         .seccion5_5{

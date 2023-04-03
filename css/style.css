@@ -77,20 +77,11 @@ a:hover {
   justify-content: center;
   flex-direction: row;
   margin-top: 80px;
-  margin-left: 42px;
+  margin-left: 12px;
 }
 .section-main .seccion3 .video {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-}
-.section-main .seccion3 .video iframe, .section-main .seccion3 .video object, .section-main .seccion3 .video embed {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
-  height: 100%;
+  margin-top: 43px;
 }
 .section-main .seccion3 .seccion3_1 {
   margin-top: 17px;
@@ -134,7 +125,7 @@ a:hover {
   flex-direction: row-reverse;
 }
 .section-main .seccion5 .imgsushi1 {
-  width: 100%;
+  width: 90%;
 }
 .section-main .seccion5 .seccion5_5 {
   width: 75%;
@@ -510,7 +501,6 @@ a {
   }
   .bannermain {
     width: 100%;
-    object-fit: cover;
   }
   .seccion3 {
     flex-wrap: wrap;
@@ -537,11 +527,9 @@ a {
     flex-wrap: wrap;
   }
   .en {
-    font-size: 4rem;
-    margin-left: -39px;
+    font-size: 2rem;
   }
   .texto-nobu-1 {
-    margin-left: -41px;
     font-size: 2rem;
   }
   .seccion2 {
@@ -588,18 +576,8 @@ a {
     flex-direction: column;
     align-items: flex-start;
   }
-  .footernew {
-    width: -1px;
-  }
   .items {
     padding-top: 5px;
-  }
-  .lista1 {
-    font-size: 2rem;
-  }
-  .listado_footer {
-    font-size: 2rem;
-    margin: 16px;
   }
 }
 @media (max-width: 500px) {
@@ -617,9 +595,6 @@ a {
   header {
     flex-wrap: wrap;
   }
-  .bannermain {
-    object-fit: cover;
-  }
   .seccion3 {
     flex-wrap: wrap;
   }
@@ -627,7 +602,7 @@ a {
     width: 100%;
   }
   .nombre {
-    font-size: 4rem;
+    font-size: 2rem;
   }
   .texto-nobu, .section-main .seccion5 .seccion5_5 .texto-nobu-1 {
     padding: 3px;
@@ -638,15 +613,20 @@ a {
     flex-wrap: wrap;
     padding-bottom: 80px;
   }
+  .seccion5_5 {
+    font-size: 1rem;
+  }
+  .imgsushi1 {
+    width: 75%;
+    margin-left: 48px;
+  }
   .submit3 {
     margin: 68px;
   }
   .en {
     font-size: 4rem;
-    margin-left: -39px;
   }
   .texto-nobu-1 {
-    margin-left: -41px;
     font-size: 2rem;
   }
   .contact_funcion {
@@ -664,18 +644,8 @@ a {
     flex-direction: column;
     align-items: flex-start;
   }
-  .footernew {
-    width: -1px;
-  }
   .items {
     padding-top: 5px;
-  }
-  .lista1 {
-    font-size: 2rem;
-  }
-  .listado_footer {
-    font-size: 2rem;
-    margin: 16px;
   }
   .copy {
     font-size: 0.7rem;
@@ -718,8 +688,7 @@ a {
     margin: 68px;
   }
   .en {
-    font-size: 4rem;
-    margin-left: -39px;
+    font-size: 2rem;
   }
   .seccion2 {
     margin-top: 168px;
@@ -733,8 +702,11 @@ a {
     object-fit: cover;
   }
   .texto-nobu-1 {
-    margin-left: -41px;
     font-size: 2rem;
+  }
+  .imgsushi1 {
+    width: 75%;
+    margin-left: 5px;
   }
   .quote {
     margin-top: 9rem;
@@ -744,18 +716,8 @@ a {
     flex-direction: column;
     align-items: flex-start;
   }
-  .footernew {
-    width: -1px;
-  }
   .items {
     padding-top: 5px;
-  }
-  .lista1 {
-    font-size: 2rem;
-  }
-  .listado_footer {
-    font-size: 2rem;
-    margin: 16px;
   }
   .copy {
     font-size: 0.7rem;
