@@ -40,11 +40,11 @@ Si tienes preguntas o problemas con nuestro sitio web, no dudes en contactarnos 
 ###Capturas de pantalla 
 
 ####Captura de pantalla version Desktop <br><br>
-<a href="https://ibb.co/Ks7Qb5f"><img src="https://i.ibb.co/Yd8KPN1/escritorio.jpg" alt="escritorio" border="0"></a>
+<a href="https://ibb.co/Ks7Qb5f"><img src="https://i.ibb.co/Yd8KPN1/escritorio.jpg" alt="escritorio"></a>
 
 ####Captura de pantalla version mobile <br><br>
 
-<a href="https://ibb.co/BHhMSm0"><img src="https://i.ibb.co/V0F4Pdf/mobile.jpg" alt="mobile" border="0"></a>
+<a href="https://ibb.co/BHhMSm0"><img src="https://i.ibb.co/V0F4Pdf/mobile.jpg" alt="mobile"></a>
 
 
 ### Descripción
