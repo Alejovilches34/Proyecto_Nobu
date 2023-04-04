@@ -7,17 +7,22 @@ header {
   display: none;
 }
 
-.logo {
-  height: auto;
-  border-radius: 30px;
-}
-
 .h2 {
   font-size: 1rem !important;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+}
+.h2 .md {
+  color: rgb(193, 246, 177);
+  text-decoration: none;
+  font-size: 1.2em;
+  font-style: normal;
+}
+.h2 .logo {
+  height: auto;
+  border-radius: 30px;
 }
 
 ul {
@@ -31,20 +36,6 @@ a {
 a:hover {
   text-decoration: underline;
   color: rgb(167, 74, 74);
-}
-
-.lineafoo {
-  height: 1px;
-  size: 1.25rem;
-  color: aliceblue;
-  margin-top: -4px;
-}
-
-.md {
-  color: rgb(193, 246, 177);
-  text-decoration: none;
-  font-size: 1.2em;
-  font-style: normal;
 }
 
 /*main*/
@@ -81,6 +72,10 @@ a:hover {
 .section-main .seccion3 .video {
   width: 100%;
   margin-top: 43px;
+}
+.section-main .seccion3 .video iframe {
+  width: 680px;
+  height: 320px;
 }
 .section-main .seccion3 .seccion3_1 {
   margin-top: 17px;
@@ -506,6 +501,12 @@ a {
   }
   .video {
     width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  iframe {
+    width: 371px;
+    height: 240px;
   }
   .nombre {
     font-size: 4rem;

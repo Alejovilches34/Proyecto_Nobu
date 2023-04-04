@@ -6,10 +6,6 @@ header{
     display: none;
 }
   
-.logo{
-   height: auto;
-   border-radius: 30px;
-}  
 
 .h2 {
     font-size: 1rem !important;
@@ -17,6 +13,19 @@ header{
     align-items: center;
     justify-content: center ;
     flex-wrap: wrap;
+
+    .md {
+        color: rgb(193, 246, 177); 
+        text-decoration: none; 
+        font-size: 1.2em; 
+        font-style: normal;
+    }
+
+    .logo{
+        height: auto;
+        border-radius: 30px;
+     }  
+     
 }
                 
 ul {
@@ -34,17 +43,4 @@ a {
 }
 
 
-.lineafoo{
-    height: 1px;
-    size: 1.25rem;
-    color: aliceblue;
-    margin-top: -4px;
-}
-
-.md {
-    color: rgb(193, 246, 177); 
-    text-decoration: none; 
-    font-size: 1.2em; 
-    font-style: normal;
-}
     
