@@ -26,12 +26,13 @@ ul {
 a {
     text-decoration: none;
     color: aliceblue;
-}
 
-a:hover{
+    &:hover{
     text-decoration: underline;
     color: rgb(167, 74, 74);
+    }
 }
+
 
 .lineafoo{
     height: 1px;
