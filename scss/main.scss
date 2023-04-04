@@ -14,11 +14,10 @@
             @include flex (column);
             background-image: url(../images/Banner\ 2.png);
             width: 100%;
-            min-height: 80vh;
+            min-height: 80vh; 
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
-            background-attachment: fixed;
 
             .promo{
             text-align: center;
@@ -37,12 +36,8 @@
 
         .video{
             width: 100%;
+            position: relative;
             margin-top: 43px;
-
-            iframe{
-                width: 680px;
-                height: 320px;
-            }
         }
 
         .seccion3_1{
