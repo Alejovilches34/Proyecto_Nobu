@@ -77,5 +77,5 @@ Iniciar servidor local
 Puede ver mi sitio levantado haciendo click [aquí](https://github.com/Alejovilches34/Proyecto_Nobu.git/)
 
 ### Autor
-- Alejo Vilches.
+- Alejo Vilches
 
